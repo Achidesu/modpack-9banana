@@ -1,0 +1,1938 @@
+{
+  "format": 1,
+  "version": "2026.10.29-033923",
+  "minecraft": "1.20.1",
+  "forge": "47.4.28",
+  "server": "play.example.com",
+  "files": [
+    {
+      "path": "config/NoChatReports/NCR-Client.json",
+      "sha1": "1493c077473fe3f8a2216a24156d6ccab79de39a",
+      "size": 565
+    },
+    {
+      "path": "config/NoChatReports/NCR-Common.json",
+      "sha1": "6a83c8b806b818ae23a1976baa52bfc30436206a",
+      "size": 230
+    },
+    {
+      "path": "config/NoChatReports/NCR-Encryption.json",
+      "sha1": "c39b7586c81b8b8f81b3a6ea72475ba9e987d8a2",
+      "size": 520
+    },
+    {
+      "path": "config/NoChatReports/NCR-ServerPreferences.json",
+      "sha1": "3c04f45c210048b5e722b294dcc0d9f073374160",
+      "size": 24
+    },
+    {
+      "path": "config/NoChatReports/README.md",
+      "sha1": "75d98286a0aa3e180708523c8f582a2d23e590b3",
+      "size": 167
+    },
+    {
+      "path": "config/alekiships-client.toml",
+      "sha1": "4781e80e699ba67374b8ef6e17c16fc50ed2e9e2",
+      "size": 150
+    },
+    {
+      "path": "config/ambientsounds-client.json",
+      "sha1": "e29bba5ead5073bd4f0149c3c6738084d8d8e307",
+      "size": 4198
+    },
+    {
+      "path": "config/amendments-client.toml",
+      "sha1": "ea010e16785e181335729ea6e80cf2b74b0fa784",
+      "size": 4285
+    },
+    {
+      "path": "config/amendments-common.toml",
+      "sha1": "4b23021089f830dacf965526794177ff441335ea",
+      "size": 5008
+    },
+    {
+      "path": "config/appleskin-client.toml",
+      "sha1": "01ddb88e420140c33e4cfc0c105edd6e40a5f2c7",
+      "size": 1361
+    },
+    {
+      "path": "config/apprenticecodex-client.toml",
+      "sha1": "2f97608d17d455583bcd01b7b798e1d2605fd744",
+      "size": 3585
+    },
+    {
+      "path": "config/apprenticecodex-common.toml",
+      "sha1": "bb44e3603c3357b964be037211aeab0ff6bb4c74",
+      "size": 279
+    },
+    {
+      "path": "config/aquaculture-common.toml",
+      "sha1": "7256a7dea1223ddc1b6e54ad3ac7a3aea5f5c175",
+      "size": 825
+    },
+    {
+      "path": "config/astikorcartsredux-client.toml",
+      "sha1": "1413624b66bef4f606f0dd749db9854a0098c3b4",
+      "size": 553
+    },
+    {
+      "path": "config/astikorcartsredux-common.toml",
+      "sha1": "0578d257acd756051960fe6f3f7548155b75a3c9",
+      "size": 4537
+    },
+    {
+      "path": "config/attributefix.json",
+      "sha1": "a2e2566716eefde6a922e5f46b95d2b2f8a30781",
+      "size": 22903
+    },
+    {
+      "path": "config/attributeslib.cfg",
+      "sha1": "acc0250cc5e4418bf5571ce486eab6042c807ad2",
+      "size": 2686
+    },
+    {
+      "path": "config/azurelib.json",
+      "sha1": "9b664f0a5d48fb8a25dfd7f5d1c5bd731b5e93c5",
+      "size": 509
+    },
+    {
+      "path": "config/block_factorys_bosses-client.toml",
+      "sha1": "6f57203183a385923f6b6203db5b8e772143fb33",
+      "size": 2639
+    },
+    {
+      "path": "config/carryon-client.toml",
+      "sha1": "9fb9fbd6e6ec34a8f19e6a1e3adc113119448bec",
+      "size": 590
+    },
+    {
+      "path": "config/carryon-common.toml",
+      "sha1": "d091d3a1dd77efc1dfe683b5142fba2ed2bf1c7e",
+      "size": 7153
+    },
+    {
+      "path": "config/cataclysm-client.toml",
+      "sha1": "02c5a9e5a54ea8d17fc611812e72ff8acd292602",
+      "size": 527
+    },
+    {
+      "path": "config/cataclysm-common.toml",
+      "sha1": "2b4d1a90bffdb7fe8414f9cc7c69d8fa0143a4ee",
+      "size": 26343
+    },
+    {
+      "path": "config/crash_assistant/config.toml",
+      "sha1": "b5f8479a1c75d0d565e2e9b90291605819c4916d",
+      "size": 24216
+    },
+    {
+      "path": "config/crash_assistant/crash_assistant_localization_overrides/README.md",
+      "sha1": "fda2be339b85a2f66c558f8c842b3423c13f03a5",
+      "size": 2650
+    },
+    {
+      "path": "config/crash_assistant/scripts/log_analysis/example.jexl",
+      "sha1": "e492d6b210af660f57e4ace58fb84c18230d1c9e",
+      "size": 3495
+    },
+    {
+      "path": "config/crash_assistant/scripts/startup/example.jexl",
+      "sha1": "ef0a9386e87bc61457902ec5b2953a6ab4254d6e",
+      "size": 4408
+    },
+    {
+      "path": "config/create-client.toml",
+      "sha1": "f0e3b28d365068349fb5c06215da6f76dfd4497c",
+      "size": 4397
+    },
+    {
+      "path": "config/create-common.toml",
+      "sha1": "41cda6916fe6ee82d14411d094f884862ef2b3de",
+      "size": 157
+    },
+    {
+      "path": "config/createbigcannons-client.toml",
+      "sha1": "e07c8b80bb8e61859a921306f9379bdb14c2b726",
+      "size": 3449
+    },
+    {
+      "path": "config/createtnt.txt",
+      "sha1": "f9b765a6d7a246b922f763fe8fa068647f134387",
+      "size": 12052
+    },
+    {
+      "path": "config/curios-client.toml",
+      "sha1": "3034250c05362494c9f366e5cca449dcea88885d",
+      "size": 706
+    },
+    {
+      "path": "config/curios-common.toml",
+      "sha1": "71b3af0db517d1651174a40732633899cbabc927",
+      "size": 161
+    },
+    {
+      "path": "config/dinnerware-client.toml",
+      "sha1": "796664f9651da34609b1934d39a3a2c14c8a3ecf",
+      "size": 484
+    },
+    {
+      "path": "config/dinnerware-common.toml",
+      "sha1": "4230b9967a8d984f041d9943013d335cb722da45",
+      "size": 2175
+    },
+    {
+      "path": "config/dummmmmmy-client.toml",
+      "sha1": "c8e0bdeb741977f328775c303735534b4e4303ee",
+      "size": 1611
+    },
+    {
+      "path": "config/dummmmmmy-common.toml",
+      "sha1": "a888fd55c681d8371c4fc1c5f96f8826fb316912",
+      "size": 1277
+    },
+    {
+      "path": "config/dynamic_fps.json",
+      "sha1": "5f36b2ea290645ee34d943220a14b54ee5ea5be5",
+      "size": 3
+    },
+    {
+      "path": "config/embeddium-fingerprint.json",
+      "sha1": "c0cfec8984d57651396cdf61b08a6f3ebf6fcd42",
+      "size": 427
+    },
+    {
+      "path": "config/embeddium-mixins.properties",
+      "sha1": "a729ee50d18cf2204ff9fc33bc21641d55185c88",
+      "size": 269
+    },
+    {
+      "path": "config/embeddium-options.json",
+      "sha1": "de8add0f213fe49e16011076be4efa52e5f4b570",
+      "size": 851
+    },
+    {
+      "path": "config/emf_compat.json",
+      "sha1": "06517b225bd3c1c5177ff2f2232ee573fefe9793",
+      "size": 59
+    },
+    {
+      "path": "config/emotecraft.json",
+      "sha1": "212357de0d0bc3432e2ca5a1ac866e88e89b2e69",
+      "size": 647
+    },
+    {
+      "path": "config/emotecraft_emote_map.json",
+      "sha1": "be63473ca7f8286a8827f2e151fff6ce4016ff4d",
+      "size": 117
+    },
+    {
+      "path": "config/enhancedequipmentdisplay-common.toml",
+      "sha1": "7b86b19afb24ec8cd7333ae3d91af3a5a90f817d",
+      "size": 411
+    },
+    {
+      "path": "config/enhancedequipmentdisplay/visuals.json",
+      "sha1": "4eafa4513c5aec8293f509874d82f7dbb8684c58",
+      "size": 77472
+    },
+    {
+      "path": "config/enhancedvisuals-client.json",
+      "sha1": "2251f0dce55a42a2566a0a8ff0e4a2dbd07b4b7e",
+      "size": 8280
+    },
+    {
+      "path": "config/enhancedvisuals.json",
+      "sha1": "5705d9c4313bab006ecd417f308628067e2e9ba7",
+      "size": 429
+    },
+    {
+      "path": "config/entity_model_features.json",
+      "sha1": "067ba1f9805b8421b20b708dbafddf3459c717e5",
+      "size": 1293
+    },
+    {
+      "path": "config/entity_texture_features.json",
+      "sha1": "5fc3d7567c74811f362b997baa24dc25c2163b6e",
+      "size": 1452
+    },
+    {
+      "path": "config/entityculling.json",
+      "sha1": "71d872172923ba0b593d8654bfd596f9520ddc8b",
+      "size": 2248
+    },
+    {
+      "path": "config/etf_warnings.json",
+      "sha1": "1573fc320a363b30a1a5e4cae1d4596ec177085d",
+      "size": 28
+    },
+    {
+      "path": "config/farmandcharm.toml",
+      "sha1": "24e1d87666674e5f9d641ac5cba11db019e9d5e1",
+      "size": 4416
+    },
+    {
+      "path": "config/farmers_spell-common.toml",
+      "sha1": "99dbf3dff917544526580a6b8e40f8454b9fe2a2",
+      "size": 139
+    },
+    {
+      "path": "config/farmersdelight-client.toml",
+      "sha1": "0837b7da65d2d2b5fe8430ecddae8a97379d8c55",
+      "size": 478
+    },
+    {
+      "path": "config/farmersdelight-common.toml",
+      "sha1": "5f3a0af48b61c6b2935284df7282d6a32fad7414",
+      "size": 3930
+    },
+    {
+      "path": "config/fdbosses/bosses.json",
+      "sha1": "3388e36cadb78b784e1a5d1ec94e2246d0ccbd31",
+      "size": 3098
+    },
+    {
+      "path": "config/fdbosses/bosses_clientside.json",
+      "sha1": "d7c84f5593ed207f80bb149729df2c0a475bc525",
+      "size": 235
+    },
+    {
+      "path": "config/fdlib/fdlib_client.json",
+      "sha1": "2d74767f5cb57f7f79dae04e3e1dd4d206d861da",
+      "size": 136
+    },
+    {
+      "path": "config/fdlib/test.json",
+      "sha1": "1f01c0f2173afc8e66a3c265b4cf97e264abc1da",
+      "size": 215
+    },
+    {
+      "path": "config/ferritecore-mixin.toml",
+      "sha1": "bada32b53873ce4121ffefb82ca804c94aef2e0b",
+      "size": 1516
+    },
+    {
+      "path": "config/figura.json",
+      "sha1": "ef01f37153849b758d6f8b74a3f5b628ec550897",
+      "size": 54
+    },
+    {
+      "path": "config/flywheel-client.toml",
+      "sha1": "cf84c8896ee60d75c73ba7c84292e6a91559f62a",
+      "size": 622
+    },
+    {
+      "path": "config/fml.toml",
+      "sha1": "5850d014d8cc0cb6e529a9630398080506f90262",
+      "size": 1147
+    },
+    {
+      "path": "config/forge-client.toml",
+      "sha1": "55e80f51f0c9cf66de1f95c4d775b24dc59627a1",
+      "size": 1628
+    },
+    {
+      "path": "config/freecam.toml",
+      "sha1": "ee7f49b50abc49a287433b0d59b866a4c9b99212",
+      "size": 1774
+    },
+    {
+      "path": "config/frierenvoid-client.toml",
+      "sha1": "ca78dac5f17408ccf6ebe2c64cdf4e5717e74682",
+      "size": 816
+    },
+    {
+      "path": "config/grandsigil-client.toml",
+      "sha1": "2bc65c5c10d0907ddd083e85de07f90cd858784f",
+      "size": 551
+    },
+    {
+      "path": "config/grandsigil-common.toml",
+      "sha1": "11195b72a9f6fb7cc90a7bcf3d9c63a9c36eacf5",
+      "size": 2879
+    },
+    {
+      "path": "config/gtbcs_spell_lib-common.toml",
+      "sha1": "4b1c05a91941e7137681be5f15f07f943fecdfc0",
+      "size": 316
+    },
+    {
+      "path": "config/hardcorerevival-common.toml",
+      "sha1": "134f58d28fc89652e20fb5bc335eb6fc99631ef5",
+      "size": 2168
+    },
+    {
+      "path": "config/horseexpert-client.toml",
+      "sha1": "9680476b9b0c981230dcc2e826eab30e9d6b1fa9",
+      "size": 1660
+    },
+    {
+      "path": "config/icarus.jsonc",
+      "sha1": "457ad41798a3d62820d6a1742e430a90b9d9505a",
+      "size": 532
+    },
+    {
+      "path": "config/illageandspillage-client.toml",
+      "sha1": "0fc414203b9d9ea14022074d6df30f1ff67d8483",
+      "size": 486
+    },
+    {
+      "path": "config/illageandspillage-common.toml",
+      "sha1": "47ffb40f684041b61f82cf631727f1c7fd6352c9",
+      "size": 12911
+    },
+    {
+      "path": "config/immediatelyfast.json",
+      "sha1": "adcb21b0ad5f7f1c124517ff64fc701a737e4ea1",
+      "size": 1060
+    },
+    {
+      "path": "config/immersive_eating.toml",
+      "sha1": "00bc8ff9d8ded72715f72190918f87582b3ccb69",
+      "size": 87
+    },
+    {
+      "path": "config/immersive_furniture.json",
+      "sha1": "2f6c916aefef0977d78f97d9ddf186c379925161",
+      "size": 381
+    },
+    {
+      "path": "config/insightchests-client.toml",
+      "sha1": "901103dd89604824a0e464211b7af8dd4c5bad1a",
+      "size": 5994
+    },
+    {
+      "path": "config/inventoryprofilesnext/58.8.217.96\u002625566/prev-villager-trading-config.json",
+      "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "size": 1177
+    },
+    {
+      "path": "config/inventoryprofilesnext/58.8.217.96\u002625566/villager-trading-config.json",
+      "sha1": "cb8d0730abd78c36c826a4dcdddca4ecd4be12f1",
+      "size": 1312
+    },
+    {
+      "path": "config/inventoryprofilesnext/New World/prev-villager-trading-config.json",
+      "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "size": 1177
+    },
+    {
+      "path": "config/inventoryprofilesnext/New World/villager-trading-config.json",
+      "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "size": 1177
+    },
+    {
+      "path": "config/inventoryprofilesnext/integrationHints/exampleIntegrationHints.json",
+      "sha1": "2bedb4d58a778b937dd9da01c50a46af9887709b",
+      "size": 1450
+    },
+    {
+      "path": "config/inventoryprofilesnext/inventoryprofiles.json",
+      "sha1": "58b81b870399a90daad1a3249c68c2d5bd18abf9",
+      "size": 57
+    },
+    {
+      "path": "config/inventoryprofilesnext/villager-trading-config.json",
+      "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "size": 1177
+    },
+    {
+      "path": "config/irons_spellbooks-client.toml",
+      "sha1": "fbc4025b01acdd3bf4fd31d0844cb9bb8bbb4991",
+      "size": 3575
+    },
+    {
+      "path": "config/irons_spellbooks_spell_config/global_config.json",
+      "sha1": "3fd1649e33039ce955191888a01c0742aa31a0f9",
+      "size": 257
+    },
+    {
+      "path": "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
+      "sha1": "689785f1f451bc4517caaa2262ed4f8cf20b7b21",
+      "size": 683
+    },
+    {
+      "path": "config/modernfix-common.toml",
+      "sha1": "046452d3af87f5c1fd5de5650e3d1b73c930fd92",
+      "size": 107
+    },
+    {
+      "path": "config/modernfix-mixins.properties",
+      "sha1": "3e2070a7bb4744c81cd078933c9c745d76fd6ae2",
+      "size": 6643
+    },
+    {
+      "path": "config/monsterexpansion-client.toml",
+      "sha1": "41ee81f02af24f43d64b6c4bbfbcc6d4a2e72ed7",
+      "size": 268
+    },
+    {
+      "path": "config/monsterexpansion-rolls.toml",
+      "sha1": "169247327658387da636321c1f3ef92ceaac0302",
+      "size": 242
+    },
+    {
+      "path": "config/moonlight-client.toml",
+      "sha1": "2b7b74e7a52aa0863a6d8d92ceca1e7e5dc247be",
+      "size": 1027
+    },
+    {
+      "path": "config/moonlight-common.toml",
+      "sha1": "ad306d35d661dfff2a752674eb4b8e05f05f1c8e",
+      "size": 1023
+    },
+    {
+      "path": "config/obscuria/aquamirae-client.toml",
+      "sha1": "73c8ad9c4c25d40ee179fbfb79582c37a7f8fe72",
+      "size": 548
+    },
+    {
+      "path": "config/obscuria/aquamirae-common.toml",
+      "sha1": "887de7e7245ec12bb566176e040cf97ec7913906",
+      "size": 4182
+    },
+    {
+      "path": "config/oculus.properties",
+      "sha1": "455cf88542cd833772b1c67a094199d34f5bc808",
+      "size": 254
+    },
+    {
+      "path": "config/panicfigura.json",
+      "sha1": "eb17955207e32f14dfd0176eb048a01cf39b7ca3",
+      "size": 47
+    },
+    {
+      "path": "config/parcool-animation.toml",
+      "sha1": "c19056ff8fba8eac358b167892c41d8d3f6e357d",
+      "size": 1412
+    },
+    {
+      "path": "config/parcool-client.toml",
+      "sha1": "f0c39e9cdc61643683872202cf1219091cc83e0b",
+      "size": 1901
+    },
+    {
+      "path": "config/pehkui-client.toml",
+      "sha1": "50ccb3af7b7fc2103f3f34de24a7c0564fc8a997",
+      "size": 138
+    },
+    {
+      "path": "config/pehkui-common.toml",
+      "sha1": "c11b9ccc2be7db28ea07b48af4ff9b1822082c7b",
+      "size": 407
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/cs_cz.json",
+      "sha1": "80ef270dab711e22c4ec378c006422e99303bf22",
+      "size": 8788
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/de_de.json",
+      "sha1": "9dbbe34f84e9d012d51f60c0a8435b260fbdc1ad",
+      "size": 8510
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/es_es.json",
+      "sha1": "b96432c33123aace28c9915579f2b7e5c841cbea",
+      "size": 9115
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/fr_fr.json",
+      "sha1": "ce0e6afc2309001b897ce9ae95e331325c7a48ed",
+      "size": 9154
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/he_il.json",
+      "sha1": "27fbec3263443459086ed7556fb7dc463eba65b4",
+      "size": 9290
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/ja_jp.json",
+      "sha1": "5bf821028b49c9396d3766f34d39e557abfd5536",
+      "size": 9467
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/ko_kr.json",
+      "sha1": "c75949dcf2d5e543028e3e5da6e7e6782a528e0b",
+      "size": 9208
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/pl_pl.json",
+      "sha1": "c0d0daedffbb23aa03c45171fa6a38eb47d81f70",
+      "size": 8890
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/pt_br.json",
+      "sha1": "ed7f5e2c77800a714130a1b4b1cb61d51ba7996f",
+      "size": 9046
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/ru_ru.json",
+      "sha1": "4c1fcc29b549fb6e7846c3f40a4e7b6fc0fb8253",
+      "size": 11446
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/sr_sp.json",
+      "sha1": "4684ad7158bddec0087bc51bfb22c2578b98172f",
+      "size": 11464
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/timestamp",
+      "sha1": "73dd34d89d82046e830c8e8843d5a821055711ed",
+      "size": 13
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/tr_tr.json",
+      "sha1": "b99de0bde19b8f5578262fa6e4c6d9cf2b216d61",
+      "size": 1545
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/tt_ru.json",
+      "sha1": "340e7fe1b0ef87fceeac610b69075e6f9703e153",
+      "size": 11312
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/uk_ua.json",
+      "sha1": "467cf07734329628ba17e17c78e2b958ba770166",
+      "size": 10828
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/vi_vn.json",
+      "sha1": "2c54dc1185c13c49ed97703496ed082988716a35",
+      "size": 10102
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/zh_cn.json",
+      "sha1": "e47cd96507b3f18a08ef1d9d728c7b5a77bc8ab4",
+      "size": 8123
+    },
+    {
+      "path": "config/plasmovoice/.crowdin/zh_tw.json",
+      "sha1": "a43069933e0467d3aaa134323411033feba1908b",
+      "size": 8119
+    },
+    {
+      "path": "config/plasmovoice/client.toml",
+      "sha1": "e279dc232e6ad11a9188ad8eea1a3a823af90438",
+      "size": 1300
+    },
+    {
+      "path": "config/plasmovoice/meta_cache.json",
+      "sha1": "977fbb4cee66841aaa9d0d293e9785edb4a8f536",
+      "size": 655
+    },
+    {
+      "path": "config/plasmovoice/server/config.toml",
+      "sha1": "f5b37e9143dbd6db1faf169a91b7b9c5ce0c5e08",
+      "size": 3799
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/cs_cz.toml",
+      "sha1": "01a2944a87e1e5da3ff4872321b9cea705d80da7",
+      "size": 2018
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/de_de.toml",
+      "sha1": "e4750f54f66a69502befa31c91d17f14ff4b0170",
+      "size": 2187
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/es_es.toml",
+      "sha1": "f3d0a48cf500a83b15127d46ec4c820313568d4f",
+      "size": 2123
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/fr_fr.toml",
+      "sha1": "47a14d2e2defb9311d8767ea4e2fd96e56d8099c",
+      "size": 2099
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/he_il.toml",
+      "sha1": "37f952c9737eb17cb600c10967d7338920a62865",
+      "size": 2228
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/ja_jp.toml",
+      "sha1": "3b8ae72b73460301786027c694c8ccdfe431d13b",
+      "size": 2508
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/ko_kr.toml",
+      "sha1": "53db0bd05c9ba2b1c302d76695c780b92b780727",
+      "size": 2356
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/pl_pl.toml",
+      "sha1": "643a7bf713721276c671d0aa6f94208bad71f1df",
+      "size": 2040
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/pt_br.toml",
+      "sha1": "3ec4902eeb00b711e29f60719d4b225d4ab144a2",
+      "size": 2035
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/ru_ru.toml",
+      "sha1": "a4947889bdb7366d2e9d890a2b1d16857f406fa1",
+      "size": 2531
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/sr_sp.toml",
+      "sha1": "8e27071f5477ee29132b779bdfdae73bddea067f",
+      "size": 2599
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/timestamp",
+      "sha1": "c6a36706649e958a3731f1d2949ce7d820fce19b",
+      "size": 13
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/tr_tr.toml",
+      "sha1": "5903fb2c2d0161e8c88b72fa8dd41905368c6b88",
+      "size": 2125
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/tt_ru.toml",
+      "sha1": "8b07478af298be9244edca8ff155fbfec9694b3c",
+      "size": 2913
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/uk_ua.toml",
+      "sha1": "fa9f6b2a461728f09e58a18475a9b7d7c7f660e4",
+      "size": 2730
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/vi_vn.toml",
+      "sha1": "78ca8c0797357ba1d8529dc2e3600da68e21aab2",
+      "size": 2258
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/zh_cn.toml",
+      "sha1": "b612d0c728e5b17172aa6a9a6c3eed88c420e540",
+      "size": 1882
+    },
+    {
+      "path": "config/plasmovoice/server/languages/.crowdin/zh_tw.toml",
+      "sha1": "a0c399b692606034bb1e137d209233761a41cb57",
+      "size": 1879
+    },
+    {
+      "path": "config/plasmovoice/server/languages/cs_cz.toml",
+      "sha1": "7d83f44357b7c0c13abba6517102244af6cb0cc3",
+      "size": 2006
+    },
+    {
+      "path": "config/plasmovoice/server/languages/de_de.toml",
+      "sha1": "3dcc843533fdbbf020f809a928eaaba5f1093e9c",
+      "size": 2175
+    },
+    {
+      "path": "config/plasmovoice/server/languages/en_us.toml",
+      "sha1": "9785cccfe26130282492c29bf1e2516ef767daef",
+      "size": 1892
+    },
+    {
+      "path": "config/plasmovoice/server/languages/es_es.toml",
+      "sha1": "ce783516b46c8da21fa4773e91ff87484b13fd5f",
+      "size": 2111
+    },
+    {
+      "path": "config/plasmovoice/server/languages/fr_fr.toml",
+      "sha1": "48b348a32931a9155e53b4501127a6e5db7c672e",
+      "size": 2087
+    },
+    {
+      "path": "config/plasmovoice/server/languages/he_il.toml",
+      "sha1": "ce41ad6f3d493ec9dba6a6fe9b36f6f1503d192c",
+      "size": 2216
+    },
+    {
+      "path": "config/plasmovoice/server/languages/ja_jp.toml",
+      "sha1": "b0ab89bf73180ebe779a58a020caa8053392985f",
+      "size": 2496
+    },
+    {
+      "path": "config/plasmovoice/server/languages/ko_kr.toml",
+      "sha1": "ecf2220e1ec13ebb3624a789d766b44512118d5a",
+      "size": 2344
+    },
+    {
+      "path": "config/plasmovoice/server/languages/pl_pl.toml",
+      "sha1": "10e92cb1c7c34a77cd80f3ad90ee94ee642f5347",
+      "size": 2028
+    },
+    {
+      "path": "config/plasmovoice/server/languages/pt_br.toml",
+      "sha1": "97fa78a86a249f99bdedbfffdf8e256e4d1c77f9",
+      "size": 2023
+    },
+    {
+      "path": "config/plasmovoice/server/languages/ru_ru.toml",
+      "sha1": "9d29ab1ef5a4dc12806589fbe31db4d4908123ec",
+      "size": 2519
+    },
+    {
+      "path": "config/plasmovoice/server/languages/sr_sp.toml",
+      "sha1": "95cac2a83860409b6fb20da3b8d8a1b29c96d2f3",
+      "size": 2587
+    },
+    {
+      "path": "config/plasmovoice/server/languages/tr_tr.toml",
+      "sha1": "85aadea23d31e089ea5d6d129de98ca594454aff",
+      "size": 2113
+    },
+    {
+      "path": "config/plasmovoice/server/languages/tt_ru.toml",
+      "sha1": "afdaa199fb46c3c5277df29031ad90328a487f97",
+      "size": 2901
+    },
+    {
+      "path": "config/plasmovoice/server/languages/uk_ua.toml",
+      "sha1": "4c2c41bf5b4314c218d101f966cff3034862a3b3",
+      "size": 2718
+    },
+    {
+      "path": "config/plasmovoice/server/languages/vi_vn.toml",
+      "sha1": "b1f7020c2f34381d6bbfcc2d366049e70ead06f9",
+      "size": 2246
+    },
+    {
+      "path": "config/plasmovoice/server/languages/zh_cn.toml",
+      "sha1": "cfd4de787ee2cb746864390f182e98f5b8142c58",
+      "size": 1870
+    },
+    {
+      "path": "config/plasmovoice/server/languages/zh_tw.toml",
+      "sha1": "2bb9a6db1c99bf02e8ea85c43e6ecd9affe328e8",
+      "size": 1867
+    },
+    {
+      "path": "config/plasmovoice/server/voice_mutes.json",
+      "sha1": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
+      "size": 2
+    },
+    {
+      "path": "config/ponder-client.toml",
+      "sha1": "0b19ea00344a54de06114aa1a0f1d4bec95782d1",
+      "size": 619
+    },
+    {
+      "path": "config/pv-addon-priority/config.toml",
+      "sha1": "0665ea4fbcc81475c4739d6f2c1c524d7cd33407",
+      "size": 177
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/es_es.toml",
+      "sha1": "f1f3bfe0cd1c4bba97816af2e883d158d1b8aee3",
+      "size": 46
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/he_il.toml",
+      "sha1": "6f649a037cc43f8c633e3ab8a64b7b220e09f754",
+      "size": 49
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/ko_kr.toml",
+      "sha1": "2c3f39a37f65b6c87098547f298e22837870efda",
+      "size": 49
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/pl_pl.toml",
+      "sha1": "64daa7b979f77311cfca5bea750ea1ff0a6190c4",
+      "size": 46
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/pt_br.toml",
+      "sha1": "b4278c3390453f37c54b9924d0dfbf85ba3a81d8",
+      "size": 47
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/ru_ru.toml",
+      "sha1": "e0fdff13c353892b3a44fc9c3f8b1e4dff23aee5",
+      "size": 55
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/timestamp",
+      "sha1": "8cca92349c4bd70a77bc43e610d06cb2069ffc6c",
+      "size": 13
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/tt_ru.toml",
+      "sha1": "cfaab4796e1eaeebbea4ae4afbe499180554324d",
+      "size": 53
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/vi_vn.toml",
+      "sha1": "efd8867d1285726a448fe1626994549094155b61",
+      "size": 52
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/zh_cn.toml",
+      "sha1": "ef4e15eb0fd8ce5680ac60da88135c6a980d796c",
+      "size": 46
+    },
+    {
+      "path": "config/pv-addon-priority/languages/.crowdin/zh_tw.toml",
+      "sha1": "8ea4e76db56350171c6cff79af55bb4a4fbad690",
+      "size": 49
+    },
+    {
+      "path": "config/pv-addon-priority/languages/en_us.toml",
+      "sha1": "6e256ca86580e3fbf1fb1f3a6203a4eb519cbfbe",
+      "size": 45
+    },
+    {
+      "path": "config/pv-addon-priority/languages/es_es.toml",
+      "sha1": "f1f3bfe0cd1c4bba97816af2e883d158d1b8aee3",
+      "size": 46
+    },
+    {
+      "path": "config/pv-addon-priority/languages/he_il.toml",
+      "sha1": "6f649a037cc43f8c633e3ab8a64b7b220e09f754",
+      "size": 49
+    },
+    {
+      "path": "config/pv-addon-priority/languages/ko_kr.toml",
+      "sha1": "2c3f39a37f65b6c87098547f298e22837870efda",
+      "size": 49
+    },
+    {
+      "path": "config/pv-addon-priority/languages/pl_pl.toml",
+      "sha1": "64daa7b979f77311cfca5bea750ea1ff0a6190c4",
+      "size": 46
+    },
+    {
+      "path": "config/pv-addon-priority/languages/pt_br.toml",
+      "sha1": "b4278c3390453f37c54b9924d0dfbf85ba3a81d8",
+      "size": 47
+    },
+    {
+      "path": "config/pv-addon-priority/languages/ru_ru.toml",
+      "sha1": "e0fdff13c353892b3a44fc9c3f8b1e4dff23aee5",
+      "size": 55
+    },
+    {
+      "path": "config/pv-addon-priority/languages/tt_ru.toml",
+      "sha1": "cfaab4796e1eaeebbea4ae4afbe499180554324d",
+      "size": 53
+    },
+    {
+      "path": "config/pv-addon-priority/languages/vi_vn.toml",
+      "sha1": "efd8867d1285726a448fe1626994549094155b61",
+      "size": 52
+    },
+    {
+      "path": "config/pv-addon-priority/languages/zh_cn.toml",
+      "sha1": "ef4e15eb0fd8ce5680ac60da88135c6a980d796c",
+      "size": 46
+    },
+    {
+      "path": "config/pv-addon-priority/languages/zh_tw.toml",
+      "sha1": "8ea4e76db56350171c6cff79af55bb4a4fbad690",
+      "size": 49
+    },
+    {
+      "path": "config/quality_food-client.toml",
+      "sha1": "28209996c89544d1ed7920d1b433f9c4698ecafb",
+      "size": 183
+    },
+    {
+      "path": "config/quickskin-client.json",
+      "sha1": "d2a3ae98f154d5fb737ab4b68ed7a81ddee47383",
+      "size": 1774
+    },
+    {
+      "path": "config/quickskin-server.json",
+      "sha1": "fa7fec7e4bfdf2f4e604697ac673dc882c2c7e35",
+      "size": 157
+    },
+    {
+      "path": "config/quickskin_preferences.json",
+      "sha1": "0ee3a649fee9e77d452d7cbdc98953192843e9d3",
+      "size": 222
+    },
+    {
+      "path": "config/railways-client.toml",
+      "sha1": "8e7df3e49f02470443e3afed058ebbd4cd128035",
+      "size": 2070
+    },
+    {
+      "path": "config/railways-common.toml",
+      "sha1": "84c59bd1047708357987030f4b89caf0bb5dc030",
+      "size": 337
+    },
+    {
+      "path": "config/resourceful-config-web.json",
+      "sha1": "f413c2459f360f5af366c051efcff50296d05208",
+      "size": 196
+    },
+    {
+      "path": "config/saintsdragons/client/clientcommon.toml",
+      "sha1": "82018356d223be5f6b1935d3b4426f0e37768f7e",
+      "size": 835
+    },
+    {
+      "path": "config/saintsdragons/client/dragon_rider_camera/camera_tuning.json",
+      "sha1": "ba864ce58fb99b02ced0dce4b220227f3c40c42e",
+      "size": 793
+    },
+    {
+      "path": "config/saintsdragons/server/attributes.toml",
+      "sha1": "7b8440ded302ea44bbed9e2e75855d3ba2ee762a",
+      "size": 9267
+    },
+    {
+      "path": "config/saintsdragons/server/servercommon.toml",
+      "sha1": "ad0cd560ac68e2ed998ea74a45aa153df1d0c5a7",
+      "size": 1294
+    },
+    {
+      "path": "config/saintsdragons/server/spawning.toml",
+      "sha1": "f4134196b3457f10856f95218b4dff94c0ce4e82",
+      "size": 2829
+    },
+    {
+      "path": "config/saintsdragons/server/tools_and_armor.toml",
+      "sha1": "5721a70c0e133eded35dfe0664047f8667675056",
+      "size": 4065
+    },
+    {
+      "path": "config/screentext/screentext_displays.json",
+      "sha1": "dde99772e211e5ed29d871ec9c8966706f641428",
+      "size": 72
+    },
+    {
+      "path": "config/sodiumdynamiclights-client.toml",
+      "sha1": "6cc0f822d81b95d1c458dfef92ba5a1daae9053b",
+      "size": 659
+    },
+    {
+      "path": "config/somakespells/balance/armors.toml",
+      "sha1": "58ce8efc0c531121a001feccf1b70a6db22a8b59",
+      "size": 100072
+    },
+    {
+      "path": "config/somakespells/balance/efeitos.toml",
+      "sha1": "8039118791ab8270e193824dca2e2512d11da880",
+      "size": 2554
+    },
+    {
+      "path": "config/somakespells/balance/spellbooks.toml",
+      "sha1": "61af64fe2c9d2c4022c6a2998158beb7463821bc",
+      "size": 195287
+    },
+    {
+      "path": "config/somakespells/balance/staffs.toml",
+      "sha1": "3728c25b5d0a916bcd442c8be9b283a705cc7f3d",
+      "size": 105414
+    },
+    {
+      "path": "config/somakespells/balance/weapons.toml",
+      "sha1": "56506837cc45a82a1d4e26e082c6e915d3c4167b",
+      "size": 148223
+    },
+    {
+      "path": "config/somakespells/general/common.toml",
+      "sha1": "13b772b8fdbf6d0c57ac6e7fd564d813b1e54d88",
+      "size": 2231
+    },
+    {
+      "path": "config/somakespells/progression/spellbooks.toml",
+      "sha1": "991f7642c63abe0abdd6d9ad4b3e241e3266413d",
+      "size": 18979
+    },
+    {
+      "path": "config/sophisticatedbackpacks-common.toml",
+      "sha1": "300cb0348cbb41fb48bab6849802495881fc9b93",
+      "size": 122
+    },
+    {
+      "path": "config/sophisticatedcore-client.toml",
+      "sha1": "235f9d3d77f6fa349bd2381f78e231103e8a54c6",
+      "size": 478
+    },
+    {
+      "path": "config/sophisticatedcore-common.toml",
+      "sha1": "f751ff54622915c7b2d2e44460a578df3a4c95af",
+      "size": 3988
+    },
+    {
+      "path": "config/sound_physics_remastered/occlusion.properties",
+      "sha1": "63e8843f243c38bc7aa44d99ce4f562991890350",
+      "size": 4831
+    },
+    {
+      "path": "config/sound_physics_remastered/reflectivity.properties",
+      "sha1": "95feb43eb67757038518212b08739cb39bb9763e",
+      "size": 4713
+    },
+    {
+      "path": "config/sound_physics_remastered/sound_rates.properties",
+      "sha1": "079db4cc1f205fdaaa4a8b82cd508f9c70aeeaea",
+      "size": 122064
+    },
+    {
+      "path": "config/sound_physics_remastered/soundphysics.properties",
+      "sha1": "d28f5f62aebcbe96ce0ad333b8cb8298776d20f8",
+      "size": 5104
+    },
+    {
+      "path": "config/spark/config.json",
+      "sha1": "33b6644f61573b11848cde9419529737418e0207",
+      "size": 117
+    },
+    {
+      "path": "config/timeclock/client.json",
+      "sha1": "6fd8d8ae9485e4764899c32bfa61f9f689e1cb54",
+      "size": 629
+    },
+    {
+      "path": "config/timeclock/server.json",
+      "sha1": "bf9fee403146cb24771318c2e68906b172d81331",
+      "size": 363
+    },
+    {
+      "path": "config/transition.json",
+      "sha1": "8b50cd4b9956dc3443acd38e47f80e23ff7712f5",
+      "size": 97
+    },
+    {
+      "path": "config/trender.json",
+      "sha1": "8b2dd1fd2ca9c7dc83354cd2c649c486864cea76",
+      "size": 44
+    },
+    {
+      "path": "config/vinery.toml",
+      "sha1": "8317aa1c5dced88d7aea87c7c9beee098b768350",
+      "size": 2933
+    },
+    {
+      "path": "config/witherreincarnated/client.toml",
+      "sha1": "3102530990d29eb6ffd36583680c010ca43c7f40",
+      "size": 971
+    },
+    {
+      "path": "config/witherreincarnated/common.toml",
+      "sha1": "673f6bad805b2386a298b84ffbf187093ba19b03",
+      "size": 1652
+    },
+    {
+      "path": "config/xaero/lib/client.cfg",
+      "sha1": "45cccfb3eb8a7a784bd4c29539e5558445f90bcf",
+      "size": 26
+    },
+    {
+      "path": "config/xaero/lib/common.cfg",
+      "sha1": "8ae8d6ea0330bec2c0db28b109a12443708f1e7b",
+      "size": 236
+    },
+    {
+      "path": "config/xaero/lib/profiles/default.cfg",
+      "sha1": "253bac0f5181c8db8e488832c46a8d40018650cf",
+      "size": 121
+    },
+    {
+      "path": "config/xaero/lib/server_profiles/default.cfg",
+      "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "size": 75
+    },
+    {
+      "path": "config/xaero/world-map/client.cfg",
+      "sha1": "27b70648a1bccd0561ae94c0a1a978f283893dea",
+      "size": 521
+    },
+    {
+      "path": "config/xaero/world-map/common.cfg",
+      "sha1": "c3c64f24c8d33940264147473e4a1c8ba5c219ff",
+      "size": 141
+    },
+    {
+      "path": "config/xaero/world-map/profiles/default.cfg",
+      "sha1": "2f1680b1a14bf8cc756c5911c9b9f90e119a365e",
+      "size": 1619
+    },
+    {
+      "path": "config/xaero/world-map/server_profiles/default.cfg",
+      "sha1": "8efdb5a6c4f4f41a36b531d54592321012491fb2",
+      "size": 75
+    },
+    {
+      "path": "config/xaeropatreon.txt",
+      "sha1": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+      "size": 0
+    },
+    {
+      "path": "config/yacl.json5",
+      "sha1": "ef6eac77bc8ec50971872b820002db7227ece802",
+      "size": 35
+    },
+    {
+      "path": "kubejs/README.txt",
+      "sha1": "3e56c097cd0c5be61b767a9a9ae73ae083d2eca9",
+      "size": 1203
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/block/example_block.png",
+      "sha1": "87f5ec8c26493050fc83543af8d33f2d28a98766",
+      "size": 247
+    },
+    {
+      "path": "kubejs/assets/kubejs/textures/item/example_item.png",
+      "sha1": "d9912cb709ad496b10f19f8b2c66d1e419eb760c",
+      "size": 372
+    },
+    {
+      "path": "kubejs/client_scripts/example.js",
+      "sha1": "dfe0a9197b4b80a3f1235afa6f825857d9ead98a",
+      "size": 126
+    },
+    {
+      "path": "kubejs/config/client.properties",
+      "sha1": "ea083a641eed798fee34a6f1bf15454f10db798b",
+      "size": 375
+    },
+    {
+      "path": "kubejs/config/common.properties",
+      "sha1": "4db3830f7b7f9685548b215713f06503aed63616",
+      "size": 342
+    },
+    {
+      "path": "kubejs/startup_scripts/example.js",
+      "sha1": "bbeca4224e5e4dd007400d47b0f1e6618e8c68ec",
+      "size": 127
+    },
+    {
+      "path": "mods/AmbientSounds_FORGE_v6.3.10_mc1.20.1.jar",
+      "sha1": "feb797f5303eb0b43002ad8ea366530249b4710b",
+      "size": 53432458,
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/ApGAJplZ/AmbientSounds_FORGE_v6.3.10_mc1.20.1.jar"
+    },
+    {
+      "path": "mods/ApothicAttributes-1.20.1-1.3.7.jar",
+      "sha1": "1dc0744d17f0861fe6b067798d39abce9d8e0e86",
+      "size": 227511,
+      "url": "https://cdn.modrinth.com/data/DGaH8Rh0/versions/fwL9CWGd/ApothicAttributes-1.20.1-1.3.7.jar"
+    },
+    {
+      "path": "mods/Aquaculture-1.20.1-2.5.7.jar",
+      "sha1": "308a0e92401e29bdb9cae24532a3b07a1bf6e757",
+      "size": 601839,
+      "url": "https://cdn.modrinth.com/data/Vl1uNAuy/versions/wNiFoROs/Aquaculture-1.20.1-2.5.7.jar"
+    },
+    {
+      "path": "mods/AttributeFix-Forge-1.20.1-21.0.5.jar",
+      "sha1": "76d6b2d0f2a3c9842587ad20666ba419cd8c1efa",
+      "size": 19499,
+      "url": "https://cdn.modrinth.com/data/lOOpEntO/versions/ihWybkI9/AttributeFix-Forge-1.20.1-21.0.5.jar"
+    },
+    {
+      "path": "mods/BetterF3-7.0.2-Forge-1.20.1.jar",
+      "sha1": "b65cba59e87dc6c6d1aa9c47f09b9996b4e5075d",
+      "size": 468517,
+      "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/xo6HmgWj/BetterF3-7.0.2-Forge-1.20.1.jar"
+    },
+    {
+      "path": "mods/BiaoHealthBarX-forge-0.1.0.jar",
+      "sha1": "141a1f0b2d13b122cbb7b1d258cd4999595b73b3",
+      "size": 10320,
+      "url": "https://cdn.modrinth.com/data/Tx8UVHVY/versions/IyRziP21/BiaoHealthBarX-forge-0.1.0.jar"
+    },
+    {
+      "path": "mods/CrashAssistant-forge-1.19-1.20.1-1.11.12.jar",
+      "sha1": "b309bd4803d5fcf27397b5ea60bbe4bb332bc809",
+      "size": 3503813,
+      "url": "https://cdn.modrinth.com/data/ix1qq8Ux/versions/1UfKorj6/CrashAssistant-forge-1.19-1.20.1-1.11.12.jar"
+    },
+    {
+      "path": "mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+      "sha1": "f8b65310e0183630dd00c1ade12f9b6ecd243287",
+      "size": 1144290,
+      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/ChKayKur/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar"
+    },
+    {
+      "path": "mods/EnhancedVisuals_FORGE_v1.8.34_mc1.20.1.jar",
+      "sha1": "52cb835dd736e28407b9da0c1f3d66c24422385c",
+      "size": 4728483,
+      "url": "https://cdn.modrinth.com/data/KjL0jE2w/versions/4IG1vNXQ/EnhancedVisuals_FORGE_v1.8.34_mc1.20.1.jar"
+    },
+    {
+      "path": "mods/FarmersDelight-1.20.1-1.3.4.jar",
+      "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+      "size": 3311051,
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar"
+    },
+    {
+      "path": "mods/GPUTape-1.18x-1.21x-1.0.5.1.jar",
+      "sha1": "db4a84db628dd668e08898e42e881615d34f0629",
+      "size": 20295,
+      "url": "https://cdn.modrinth.com/data/5CTSrY8X/versions/mMc55fB1/GPUTape-1.18x-1.21x-1.0.5.1.jar"
+    },
+    {
+      "path": "mods/HigherHeightsUltimate4064_1.20-1.20.1.jar",
+      "sha1": "1eb2c6cdbb56b7c5fee3da89b10bd1720b641181",
+      "size": 1612303,
+      "url": "https://cdn.modrinth.com/data/neXxXU3U/versions/U7qK7X8y/HigherHeightsUltimate4064_1.20-1.20.1.jar"
+    },
+    {
+      "path": "mods/HorseExpert-v8.1.1-1.20.1-Forge.jar",
+      "sha1": "84585fe2422165be38aa54cdedc1d39264a693a5",
+      "size": 97465,
+      "url": "https://cdn.modrinth.com/data/24CSPS1E/versions/HlwDHWL1/HorseExpert-v8.1.1-1.20.1-Forge.jar"
+    },
+    {
+      "path": "mods/Icarus-Forge-2.14.1.jar",
+      "sha1": "2d177af9b322eb78586e8761f2fdb128d908670e",
+      "size": 366489,
+      "url": "https://cdn.modrinth.com/data/Dw7M6XKW/versions/RXhgOzWN/Icarus-Forge-2.14.1.jar"
+    },
+    {
+      "path": "mods/ImmediatelyFast-Forge-1.5.5\u002B1.20.4.jar",
+      "sha1": "9eacd407b7dea636d375dc47335d92f616484ea2",
+      "size": 532063,
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/rvsLEEZU/ImmediatelyFast-Forge-1.5.5%2B1.20.4.jar"
+    },
+    {
+      "path": "mods/InventoryProfilesNext-forge-1.20-1.10.20.jar",
+      "sha1": "979e74fa10b24a7d7c4d9aeb5824b80f4f9235cf",
+      "size": 1457354,
+      "url": "https://cdn.modrinth.com/data/O7RBXm3n/versions/CrtAI3P9/InventoryProfilesNext-forge-1.20-1.10.20.jar"
+    },
+    {
+      "path": "mods/L_Enders_Cataclysm-3.31.jar",
+      "sha1": "4f1165cb39521292e826b471b4808bb89f0f4f3f",
+      "size": 73916104,
+      "url": "https://cdn.modrinth.com/data/46KJle7n/versions/C3H0azzB/L_Enders_Cataclysm-3.31.jar"
+    },
+    {
+      "path": "mods/NoChatReports-FORGE-1.20.1-v2.2.3.jar",
+      "sha1": "fa524b8f5475aef5d09b2787e553c903e4e3fe94",
+      "size": 271630,
+      "url": "https://cdn.modrinth.com/data/qQyHxfxd/versions/2XUIKIAa/NoChatReports-FORGE-1.20.1-v2.2.3.jar"
+    },
+    {
+      "path": "mods/ParCool-1.20.1-4.0.1.4.jar",
+      "sha1": "abbc0b5b7b90c461170de55cefd25f2fee4c50ea",
+      "size": 1257127,
+      "url": "https://cdn.modrinth.com/data/Fsvx2bdR/versions/6yV2P1Ne/ParCool-1.20.1-4.0.1.4.jar"
+    },
+    {
+      "path": "mods/Pehkui-3.8.2\u002B1.20.1-forge.jar",
+      "sha1": "4bc816efdd8e5e2a97423313674401351710e403",
+      "size": 671605,
+      "url": "https://cdn.modrinth.com/data/t5W7Jfwy/versions/SQpqSgAE/Pehkui-3.8.2%2B1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/Placebo-1.20.1-8.6.3.jar",
+      "sha1": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f",
+      "size": 282474,
+      "url": "https://cdn.modrinth.com/data/tCkE8p2N/versions/6SkuAGoz/Placebo-1.20.1-8.6.3.jar"
+    },
+    {
+      "path": "mods/PuzzlesLib-v8.1.36-1.20.1-Forge.jar",
+      "sha1": "d2e79bc84f0f2e75e3212ab236af08528117b213",
+      "size": 1790007,
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/hOfDHA4g/PuzzlesLib-v8.1.36-1.20.1-Forge.jar"
+    },
+    {
+      "path": "mods/Souls_Like_Bosses_Alternate_3_2_Forge\u002BFabric_1_20_1.jar",
+      "sha1": "3e7172354e2d0bbf5baf3d00c35f0c010657bcce",
+      "size": 248396467,
+      "url": "https://cdn.modrinth.com/data/uC6jPxzB/versions/kmp193h5/Souls_Like_Bosses_Alternate_3_2_Forge%2BFabric_1_20_1.jar"
+    },
+    {
+      "path": "mods/Steam_Rails-1.7.3\u002Bforge-mc1.20.1.jar",
+      "sha1": "5f904126d942cdbd272a5254ec6145851e5e1e7a",
+      "size": 17042037,
+      "url": "https://cdn.modrinth.com/data/ZzjhlDgM/versions/7Uk6lWkU/Steam_Rails-1.7.3%2Bforge-mc1.20.1.jar"
+    },
+    {
+      "path": "mods/alekiNiftyShips-FORGE-1.20.1-1.0.14.jar",
+      "sha1": "c42aaab43cd524c45c4065996cc06b9b48c5682a",
+      "size": 22335232,
+      "url": "https://cdn.modrinth.com/data/vuNeeDyl/versions/VX4fjmf1/alekiNiftyShips-FORGE-1.20.1-1.0.14.jar"
+    },
+    {
+      "path": "mods/amendments-1.20-2.2.6.jar",
+      "sha1": "dc79f8c5326b059c8f136765b4bca826147cf2d7",
+      "size": 1315525,
+      "url": "https://cdn.modrinth.com/data/6iTJugQR/versions/nJORWvdh/amendments-1.20-2.2.6.jar"
+    },
+    {
+      "path": "mods/another_furniture-forge-1.20.1-3.0.4.jar",
+      "sha1": "bffc5f4d6ae0a906222990c9d0fa8a632b2aa8ed",
+      "size": 2463633,
+      "url": "https://cdn.modrinth.com/data/ulloLmqG/versions/S9tNKT5R/another_furniture-forge-1.20.1-3.0.4.jar"
+    },
+    {
+      "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "sha1": "81919356f84eab14258db98924b66c3c38e372b1",
+      "size": 47428,
+      "url": "https://cdn.modrinth.com/data/EsAfCjCV/versions/XdXDExVF/appleskin-forge-mc1.20.1-2.5.1.jar"
+    },
+    {
+      "path": "mods/apprentice_codex-1.0.0\u002Bmc1.20.1.jar",
+      "sha1": "cbae0457af40b60c61f786a9beaeac424da442cc",
+      "size": 11752786,
+      "url": "https://cdn.modrinth.com/data/MYxjEv5n/versions/XpTr9v4v/apprentice_codex-1.0.0%2Bmc1.20.1.jar"
+    },
+    {
+      "path": "mods/aquamirae-forge-1.20.1-7.1.14.jar",
+      "sha1": "5b84a5387300910aef9c07c33308ce33110be515",
+      "size": 25920958,
+      "url": "https://cdn.modrinth.com/data/k23mNPhZ/versions/rRfT3ynS/aquamirae-forge-1.20.1-7.1.14.jar"
+    },
+    {
+      "path": "mods/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "size": 580602,
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar"
+    },
+    {
+      "path": "mods/astikorcartsredux-1.2.5.jar",
+      "sha1": "77a95e6f367d286d903ea2bc2aa7145f2ec7108f",
+      "size": 530548,
+      "url": "https://cdn.modrinth.com/data/mnLFouB0/versions/I8Wr3Oid/astikorcartsredux-1.2.5.jar"
+    },
+    {
+      "path": "mods/azurelib-neo-1.20.1-3.2.2.jar",
+      "sha1": "d11ecac0954f094aa14628a0f2d2694cd3628580",
+      "size": 1306614,
+      "url": "https://cdn.modrinth.com/data/7zlUOZvb/versions/t7BgIeIU/azurelib-neo-1.20.1-3.2.2.jar"
+    },
+    {
+      "path": "mods/balm-forge-1.20.1-7.3.44.jar",
+      "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
+      "size": 561741,
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar"
+    },
+    {
+      "path": "mods/block_factorys_bosses-2.1.2-forge-1.20.1.jar",
+      "sha1": "f27671c93f058053a599e0f2c99ad78e912ecf44",
+      "size": 23963009,
+      "url": "https://cdn.modrinth.com/data/q2bV1Tm1/versions/jwkdmnrh/block_factorys_bosses-2.1.2-forge-1.20.1.jar"
+    },
+    {
+      "path": "mods/caelus-forge-3.2.0\u002B1.20.1.jar",
+      "sha1": "d14e8ee892d4d8764f523ad0e89bdcfc061fb007",
+      "size": 40125,
+      "url": "https://cdn.modrinth.com/data/40FYwb4z/versions/mRry0DgY/caelus-forge-3.2.0%2B1.20.1.jar"
+    },
+    {
+      "path": "mods/carryon-forge-1.20.1-2.1.2.7.jar",
+      "sha1": "9999714ca3dd2f2401f0396ca44f3b27c3784c4f",
+      "size": 439457,
+      "url": "https://cdn.modrinth.com/data/joEfVgkn/versions/edGQD16r/carryon-forge-1.20.1-2.1.2.7.jar"
+    },
+    {
+      "path": "mods/casualswing-1.0.2-fix-1.20.1-Forge.jar",
+      "sha1": "56a33d40fedacf694b4d9cec9e8b7fc33cbed460",
+      "size": 1716656,
+      "url": "https://edge.forgecdn.net/files/9141/909/casualswing-1.0.2-fix-1.20.1-Forge.jar"
+    },
+    {
+      "path": "mods/charprofile-1.0.0-client.jar",
+      "sha1": "2a3a4447f46e9ae36b32c627305a17c5fd83b52c",
+      "size": 18771
+    },
+    {
+      "path": "mods/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar"
+    },
+    {
+      "path": "mods/common-networking-forge-1.0.6-1.20.1.jar",
+      "sha1": "68dae58372f8332d7b8596e908f85433c0e0cb0d",
+      "size": 21680,
+      "url": "https://cdn.modrinth.com/data/HIuqnQpi/versions/TkOARDQh/common-networking-forge-1.0.6-1.20.1.jar"
+    },
+    {
+      "path": "mods/create-1.20.1-6.0.8.jar",
+      "sha1": "b13d912b9247a38d66d11598c121442585a1c1e9",
+      "size": 19170905,
+      "url": "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar"
+    },
+    {
+      "path": "mods/createbigcannons-5.11.4-mc.1.20.1-forge.jar",
+      "sha1": "d9be0ace572fe54be904da1bb0b0cc8711db3b70",
+      "size": 4058306,
+      "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/ZRgu5o3x/createbigcannons-5.11.4-mc.1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/createtnt-1.20.1-forge-1.0.0.jar",
+      "sha1": "29d64a3e0c0737a382022a547e33bf7a3cc349ab",
+      "size": 288558,
+      "url": "https://cdn.modrinth.com/data/E2Zbah9l/versions/HgDEYeFu/createtnt-1.20.1-forge-1.0.0.jar"
+    },
+    {
+      "path": "mods/curios-forge-5.14.1\u002B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar"
+    },
+    {
+      "path": "mods/customskyboxes-forge-mc1.20.1-1.0.4.jar",
+      "sha1": "c60f90513e38641bf40bedd2d30f7cbc7d7159fc",
+      "size": 482473,
+      "url": "https://cdn.modrinth.com/data/PJflrYWw/versions/U2hncQPZ/customskyboxes-forge-mc1.20.1-1.0.4.jar"
+    },
+    {
+      "path": "mods/dinnerware-1.0.0-1.20.1-forge.jar",
+      "sha1": "6e017b47a28cf54f5d0e676a74fd7abddd5bd138",
+      "size": 401486,
+      "url": "https://cdn.modrinth.com/data/TcN3MJnS/versions/G0yXENos/dinnerware-1.0.0-1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/dinnerware-1.1.0-1.20.1-forge.jar",
+      "sha1": "6959a5f45e5e246138d03317b7dc139fadb6cfce",
+      "size": 471870,
+      "url": "https://cdn.modrinth.com/data/TcN3MJnS/versions/zbWM1TcJ/dinnerware-1.1.0-1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/dummmmmmy-1.20-2.0.12-forge.jar",
+      "sha1": "3b6da54436955ea2ca6e8891ef69d0f6621ab878",
+      "size": 839685,
+      "url": "https://cdn.modrinth.com/data/Adega8YN/versions/c1HMqDvI/dummmmmmy-1.20-2.0.12-forge.jar"
+    },
+    {
+      "path": "mods/dynamic-fps-3.11.4\u002Bminecraft-1.20.0-forge.jar",
+      "sha1": "43b3e0766a9e7a30651cc01756476657b865b7a2",
+      "size": 402345,
+      "url": "https://cdn.modrinth.com/data/LQ3K71Q1/versions/EjdIWWqG/dynamic-fps-3.11.4%2Bminecraft-1.20.0-forge.jar"
+    },
+    {
+      "path": "mods/embeddium-0.3.31\u002Bmc1.20.1.jar",
+      "sha1": "bb2fa8f3e493af16af9160d049f96c614a1faf2f",
+      "size": 1320675,
+      "url": "https://cdn.modrinth.com/data/sk9rgfiA/versions/UTbfe5d1/embeddium-0.3.31%2Bmc1.20.1.jar"
+    },
+    {
+      "path": "mods/emf_compat_core_forge_1.20.1_2.3.0.jar",
+      "sha1": "2846b32a27d397476c8bae38bac8f4dc3b3f5034",
+      "size": 176016,
+      "url": "https://cdn.modrinth.com/data/hbGct5uU/versions/tbhYJYyf/emf_compat_core_forge_1.20.1_2.3.0.jar"
+    },
+    {
+      "path": "mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+      "sha1": "fcff067375cfe917cbf235218f49ceb58e598a5c",
+      "size": 680255,
+      "url": "https://cdn.modrinth.com/data/pZ2wrerK/versions/2f5mEUPY/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar"
+    },
+    {
+      "path": "mods/enhancedequipmentdisplay-forge-1.20.1-1.1.jar",
+      "sha1": "be5f4ddee0e66215b4e4238319ebd5a9d10a054f",
+      "size": 338252,
+      "url": "https://edge.forgecdn.net/files/8773/279/enhancedequipmentdisplay-forge-1.20.1-1.1.jar"
+    },
+    {
+      "path": "mods/entity_model_features-3.3.11-1.20.1-forge.jar",
+      "sha1": "eaf743492f8a38ea54ff1b27ccec5a0f3db0b60f",
+      "size": 839768,
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/6RQ5C1J6/entity_model_features-3.3.11-1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/entity_texture_features-7.2.5-1.20.1-forge.jar",
+      "sha1": "90d2eb37c8572bc39246b938d3610d30afe7e509",
+      "size": 999301,
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/VkWikkyj/entity_texture_features-7.2.5-1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/entityculling-forge-1.11.3-mc1.20.1.jar",
+      "sha1": "d3c513e88ef9f5cdd7e27d17d923d4dca69c6d55",
+      "size": 1515076,
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/HUUJcFnt/entityculling-forge-1.11.3-mc1.20.1.jar"
+    },
+    {
+      "path": "mods/farmers_spell-1.0.6_2-1.20.1.jar",
+      "sha1": "d6a2f6fff1fcae0c76dd37e5c08fca76c62d7b72",
+      "size": 5548683,
+      "url": "https://cdn.modrinth.com/data/UWV8H4F4/versions/O6ZK8XcV/farmers_spell-1.0.6_2-1.20.1.jar"
+    },
+    {
+      "path": "mods/fdbosses-3.1.0.3-1.20.1.jar",
+      "sha1": "a7ff3fc0cc6af1222b95c6a1ccc46e8961a834a9",
+      "size": 26329336,
+      "url": "https://cdn.modrinth.com/data/7fqQYwaC/versions/EjoywCe2/fdbosses-3.1.0.3-1.20.1.jar"
+    },
+    {
+      "path": "mods/fdlib-1.0.9-1.20.1.jar",
+      "sha1": "6918e71d62fa103c55f9184ff619351f87f49c42",
+      "size": 1647611,
+      "url": "https://cdn.modrinth.com/data/LcmGQfK2/versions/n2vnfPiV/fdlib-1.0.9-1.20.1.jar"
+    },
+    {
+      "path": "mods/ferritecore-6.0.1-forge.jar",
+      "sha1": "417fb6ce8f52abf40bd9d0390371790f9576f8ba",
+      "size": 123034,
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/DG5Fn9Sz/ferritecore-6.0.1-forge.jar"
+    },
+    {
+      "path": "mods/figura-0.1.6\u002B1.20.1-forge-mc.jar",
+      "sha1": "72a64c2dbbe2e047d03487ef52ae281047beb1af",
+      "size": 2401921,
+      "url": "https://cdn.modrinth.com/data/s9gIPDom/versions/LXMnmMxn/figura-0.1.6%2B1.20.1-forge-mc.jar"
+    },
+    {
+      "path": "mods/fragmentum-5.3.0\u002B1.20.1-forge.jar",
+      "sha1": "a793c810c4eb15bef41ef5b467365f66c6b015d9",
+      "size": 8597690,
+      "url": "https://cdn.modrinth.com/data/49C5QgTK/versions/fDDjfhUX/fragmentum-5.3.0%2B1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/freecam-forge-1.2.1\u002B1.20.jar",
+      "sha1": "e4224b56750a1fe3956ae73a65f4470be3e0df3b",
+      "size": 75389,
+      "url": "https://cdn.modrinth.com/data/XeEZ3fK2/versions/bvoDmWip/freecam-forge-1.2.1%2B1.20.jar"
+    },
+    {
+      "path": "mods/frierenvoid-1.20.1-forge-1.11.7.jar",
+      "sha1": "aa1759ff32ab64d62af469db894883fb5987a2b9",
+      "size": 1700546,
+      "url": "https://edge.forgecdn.net/files/8883/371/frierenvoid-1.20.1-forge-1.11.7.jar"
+    },
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "sha1": "50e1407869ef0e909e3bdda9328b8bd7db03fdc0",
+      "size": 1038209,
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar"
+    },
+    {
+      "path": "mods/grandsigil-1.20.1-forge-1.3.0.jar",
+      "sha1": "950f18bf8c455cdf98bf01de091373628050918d",
+      "size": 2937478,
+      "url": "https://edge.forgecdn.net/files/9056/817/grandsigil-1.20.1-forge-1.3.0.jar"
+    },
+    {
+      "path": "mods/gtbcs_spell_lib-2.2.0-1.20.1.jar",
+      "sha1": "753917963574a7087fa10999b7646e2efe5772b2",
+      "size": 293807,
+      "url": "https://cdn.modrinth.com/data/wXoQ9BqX/versions/wacolmKQ/gtbcs_spell_lib-2.2.0-1.20.1.jar"
+    },
+    {
+      "path": "mods/hardcorerevival-forge-1.20.1-20.1.19.jar",
+      "sha1": "606d42466b21a4409e9c300e561101fdfc7e9baf",
+      "size": 243947,
+      "url": "https://cdn.modrinth.com/data/HqKoXaXz/versions/7WqVfW0w/hardcorerevival-forge-1.20.1-20.1.19.jar"
+    },
+    {
+      "path": "mods/huge-structure-blocks-forge-1.1.10.jar",
+      "sha1": "a79c4645c1bfda2a18c8a019db1137f4353604af",
+      "size": 102150,
+      "url": "https://cdn.modrinth.com/data/AMLtKGdJ/versions/VJkeBgK8/huge-structure-blocks-forge-1.1.10.jar"
+    },
+    {
+      "path": "mods/ias_spellbooks-1.1.0-1.20.1.jar",
+      "sha1": "3e4b185fb1c06372a755a089cb2e9b5b08451373",
+      "size": 508352,
+      "url": "https://edge.forgecdn.net/files/7003/776/ias_spellbooks-1.1.0-1.20.1.jar"
+    },
+    {
+      "path": "mods/illageandspillagerespillaged-1.2.8.jar",
+      "sha1": "4770eeb199c1947642456bc6ed4a0a9f54c953d6",
+      "size": 33578108,
+      "url": "https://cdn.modrinth.com/data/kLoMCc4b/versions/90YOIp4K/illageandspillagerespillaged-1.2.8.jar"
+    },
+    {
+      "path": "mods/immersive_furniture-forge-0.3.3\u002B1.20.1.jar",
+      "sha1": "4e7a47513025ab597f5894aa48575a29e686f434",
+      "size": 988737,
+      "url": "https://cdn.modrinth.com/data/SvN6UGeF/versions/ucG6uaRA/immersive_furniture-forge-0.3.3%2B1.20.1.jar"
+    },
+    {
+      "path": "mods/insight-chests-forge-1.20.1-1.0.5.jar",
+      "sha1": "1f2e5d4c875b90956402b91692aeacaa2f1f4100",
+      "size": 108464
+    },
+    {
+      "path": "mods/irons_lib-1.20.1-2.2.0.jar",
+      "sha1": "8cad65f57a4bdcbbf3ea8a5eda9240810e3a55aa",
+      "size": 490088,
+      "url": "https://cdn.modrinth.com/data/9nfaJPtX/versions/6HqXQkgC/irons_lib-1.20.1-2.2.0.jar"
+    },
+    {
+      "path": "mods/irons_spellbooks-1.20.1-3.16.3.jar",
+      "sha1": "726345aa215756bd30b7cf8c338c9ae6bbc59799",
+      "size": 15570397,
+      "url": "https://cdn.modrinth.com/data/s4OWxYQQ/versions/hZaEegS9/irons_spellbooks-1.20.1-3.16.3.jar"
+    },
+    {
+      "path": "mods/irons_spells_js-1.20.1-6.5-3.14-r2-release.jar",
+      "sha1": "d4ae87daa0003861d2fc949962b3e9a1c488e7b3",
+      "size": 343899,
+      "url": "https://cdn.modrinth.com/data/XLsvc8Ld/versions/a6NiiKTW/irons_spells_js-1.20.1-6.5-3.14-r2-release.jar"
+    },
+    {
+      "path": "mods/kaleidoscope_immersiveEating-forge1.20.1-1.5.1.jar",
+      "sha1": "f82c1d60f57c6e7444cee5fa68f3e3543d541ccb",
+      "size": 2800824,
+      "url": "https://edge.forgecdn.net/files/9127/118/kaleidoscope_immersiveEating-forge1.20.1-1.5.1.jar"
+    },
+    {
+      "path": "mods/kotlinforforge-4.12.0-all.jar",
+      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+      "size": 7442998,
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar"
+    },
+    {
+      "path": "mods/kubejs-forge-2001.6.5-build.26.jar",
+      "sha1": "8b0cc9797d4ed00fd2d1002d58960af8b32012ae",
+      "size": 1658792,
+      "url": "https://cdn.modrinth.com/data/umyGl7zF/versions/hVR2xUSr/kubejs-forge-2001.6.5-build.26.jar"
+    },
+    {
+      "path": "mods/letsdo-farm_and_charm-forge-1.0.14.jar",
+      "sha1": "4db017c18fff8356e1aa5f0e9c683f1af30bec2b",
+      "size": 2328624,
+      "url": "https://cdn.modrinth.com/data/HJetCzWo/versions/9fzY3YV6/letsdo-farm_and_charm-forge-1.0.14.jar"
+    },
+    {
+      "path": "mods/letsdo-furniture-forge-1.0.4.jar",
+      "sha1": "272cdaa252b23888ad7fae6959bdfe89317a35bd",
+      "size": 2816299,
+      "url": "https://cdn.modrinth.com/data/3JQDJrYW/versions/CGCP1SRw/letsdo-furniture-forge-1.0.4.jar"
+    },
+    {
+      "path": "mods/letsdo-vinery-forge-1.4.41.jar",
+      "sha1": "68ed3fa9524bef601064f49f60a30423db2f8fdc",
+      "size": 2041283,
+      "url": "https://cdn.modrinth.com/data/1DWmBJVA/versions/2I4cH49O/letsdo-vinery-forge-1.4.41.jar"
+    },
+    {
+      "path": "mods/libIPN-forge-1.20-4.0.2.jar",
+      "sha1": "3e7c7fcdc037a6ae3d9146e718d87fc83f88f6d5",
+      "size": 693301,
+      "url": "https://cdn.modrinth.com/data/onSQdWhM/versions/pdAXmKcS/libIPN-forge-1.20-4.0.2.jar"
+    },
+    {
+      "path": "mods/lionfishapi-3.0.jar",
+      "sha1": "79d0404f87fa066480b18c844c1e0b1c5f5475f9",
+      "size": 101931,
+      "url": "https://cdn.modrinth.com/data/FoVacERa/versions/CPftDBcY/lionfishapi-3.0.jar"
+    },
+    {
+      "path": "mods/mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "sha1": "c05189646bbde5c0d4486b93de0d707115f8445c",
+      "size": 2174615,
+      "url": "https://cdn.modrinth.com/data/dtWC90iB/versions/mvGf4LNK/mcw-furniture-3.4.1-mc1.20.1forge.jar"
+    },
+    {
+      "path": "mods/memoryleakfix-forge-1.17\u002B-1.1.5.jar",
+      "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
+      "size": 227925,
+      "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5.jar"
+    },
+    {
+      "path": "mods/modernfix-forge-5.27.88\u002Bmc1.20.1.jar",
+      "sha1": "c550424a1a5435dfc838672e1df61289717cb2cc",
+      "size": 1009661,
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/bDP3S7Vh/modernfix-forge-5.27.88%2Bmc1.20.1.jar"
+    },
+    {
+      "path": "mods/monsterexpansion-1.20.1-v0.7.6.jar",
+      "sha1": "8c28505124423307736cc0a3585034ceb3a8a452",
+      "size": 18448166,
+      "url": "https://cdn.modrinth.com/data/OSlNyqiW/versions/360wT97X/monsterexpansion-1.20.1-v0.7.6.jar"
+    },
+    {
+      "path": "mods/moonlight-1.20-2.16.36-forge.jar",
+      "sha1": "848d3a839e1d96cfb43016c3b140f586fe057cde",
+      "size": 1425230,
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/hzhhCbQ3/moonlight-1.20-2.16.36-forge.jar"
+    },
+    {
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "sha1": "984f774e71790deaec674c7587bd24e0711871b2",
+      "size": 2851119,
+      "url": "https://cdn.modrinth.com/data/GchcoXML/versions/iQ1SwGc3/oculus-mc1.20.1-1.8.0.jar"
+    },
+    {
+      "path": "mods/oddities-1.0.1-forge-1.20.1.jar",
+      "sha1": "cd588ab943106f3e17a94d687b0d9bd67ee600f1",
+      "size": 2947560,
+      "url": "https://edge.forgecdn.net/files/8504/891/oddities-1.0.1-forge-1.20.1.jar"
+    },
+    {
+      "path": "mods/panascraftrpgmod-3.6-forge-1.20.1.jar",
+      "sha1": "283c580d421144046cb437ecbf7280feefaa9096",
+      "size": 4212300,
+      "url": "https://edge.forgecdn.net/files/8443/395/panascraftrpgmod-3.6-forge-1.20.1.jar"
+    },
+    {
+      "path": "mods/panicfigura-1.0.0.jar",
+      "sha1": "24cf0a9cf24dff12ee3061f99a8e5c39ac872680",
+      "size": 152059,
+      "url": "https://cdn.modrinth.com/data/OBJfgohd/versions/v1S1Th5x/panicfigura-1.0.0.jar"
+    },
+    {
+      "path": "mods/plasmovoice-forge-1.20.1-2.1.17.jar",
+      "sha1": "a2bfe43a4c5b5077626d7f0af89fbe9972ba723f",
+      "size": 12337455,
+      "url": "https://cdn.modrinth.com/data/1bZhdhsH/versions/KoHwlbDf/plasmovoice-forge-1.20.1-2.1.17.jar"
+    },
+    {
+      "path": "mods/player-animation-lib-forge-1.0.2-rc1\u002B1.20.jar",
+      "sha1": "16808f94a41d45d8e986b4e4ea6b02ba57fa058a",
+      "size": 181437,
+      "url": "https://cdn.modrinth.com/data/gedNE4y2/versions/xe2EVE6q/player-animation-lib-forge-1.0.2-rc1%2B1.20.jar"
+    },
+    {
+      "path": "mods/pv-addon-priority-1.1.0.jar",
+      "sha1": "2cd7ec35c39c70b9756941db92a593c48793b358",
+      "size": 13790,
+      "url": "https://cdn.modrinth.com/data/DoKOaUOC/versions/xPHUGv4E/pv-addon-priority-1.1.0.jar"
+    },
+    {
+      "path": "mods/quality_food-1.20.1-2.4.4-all.jar",
+      "sha1": "23728af8245434f7ac5acad7bfa0c8682068a328",
+      "size": 916754,
+      "url": "https://cdn.modrinth.com/data/Ahdn1OE0/versions/pJH6Rbyt/quality_food-1.20.1-2.4.4-all.jar"
+    },
+    {
+      "path": "mods/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "sha1": "597d40920dcc935f963842c817dcc4901862ab14",
+      "size": 136923,
+      "url": "https://cdn.modrinth.com/data/M1953qlQ/versions/DERs8u7v/resourcefulconfig-forge-1.20.1-2.1.3.jar"
+    },
+    {
+      "path": "mods/rhino-forge-2001.2.3-build.10.jar",
+      "sha1": "c83c9b719a6bab33fbd2b3f2f680eb3adbfc1aa1",
+      "size": 1798244,
+      "url": "https://cdn.modrinth.com/data/sk9knFPE/versions/uNALdylI/rhino-forge-2001.2.3-build.10.jar"
+    },
+    {
+      "path": "mods/ritchiesprojectilelib-2.1.1\u002Bmc.1.20.1-forge.jar",
+      "sha1": "3e13ad86b2cc4107b8a18eec1d980ed19cdc37aa",
+      "size": 78625,
+      "url": "https://cdn.modrinth.com/data/B3pb093D/versions/PdGBsNte/ritchiesprojectilelib-2.1.1%2Bmc.1.20.1-forge.jar"
+    },
+    {
+      "path": "mods/saintsdragons-0.9.88\u002Bforge-1.20.1.jar",
+      "sha1": "b77b6c44a7e836d3837aa0ab5d485f666b7648d3",
+      "size": 29546843,
+      "url": "https://cdn.modrinth.com/data/rjcsjwEU/versions/GF1ycXQz/saintsdragons-0.9.88%2Bforge-1.20.1.jar"
+    },
+    {
+      "path": "mods/screentext-forge-1.20.1-v4.5.jar",
+      "sha1": "27c8e78dfdbd47c86b28ed00b2109ceea66fcc50",
+      "size": 176610,
+      "url": "https://cdn.modrinth.com/data/YRoxkhTS/versions/r380Asqy/screentext-forge-1.20.1-v4.5.jar"
+    },
+    {
+      "path": "mods/snassets_particles-1.0.1.jar",
+      "sha1": "39d5fedd9a921e71b1e1654065a080eece50a7ab",
+      "size": 575663,
+      "url": "https://cdn.modrinth.com/data/3w6lq0GG/versions/LyEE9aSZ/snassets_particles-1.0.1.jar"
+    },
+    {
+      "path": "mods/sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
+      "sha1": "d27524e85bed0f0af83c03be46f9ca3eb02a1be9",
+      "size": 511601,
+      "url": "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+    },
+    {
+      "path": "mods/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+      "sha1": "7529fbf938787ed13a251cbf40936f8c29ec4b6c",
+      "size": 443978,
+      "url": "https://cdn.modrinth.com/data/Es5v4eyq/versions/d0EFLitO/sodiumoptionsapi-forge-1.0.10-1.20.1.jar"
+    },
+    {
+      "path": "mods/somakespells-1.0.9-1.20.1-fixaltar.jar",
+      "sha1": "2a0b1cafc5559c1f2d854415f2546ba4b6709df5",
+      "size": 2598141,
+      "url": "https://edge.forgecdn.net/files/8977/61/somakespells-1.0.9-1.20.1-fixaltar.jar"
+    },
+    {
+      "path": "mods/sophisticatedbackpacks-1.20.1-3.26.12.2206.jar",
+      "sha1": "d0fe750e3f7a17e637197f368182d9e432c767b1",
+      "size": 1220810,
+      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/X7q2xTaV/sophisticatedbackpacks-1.20.1-3.26.12.2206.jar"
+    },
+    {
+      "path": "mods/sophisticatedcore-1.20.1-1.5.10.2402.jar",
+      "sha1": "765ff1709eea6422db93a10c71687532f5035e6e",
+      "size": 1763343,
+      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/e0UoBJSs/sophisticatedcore-1.20.1-1.5.10.2402.jar"
+    },
+    {
+      "path": "mods/sound-physics-remastered-forge-1.20.1-1.5.1.jar",
+      "sha1": "944b4673bcab118f411d050b2cd6b693262bb664",
+      "size": 206984,
+      "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/x0sJ9PeR/sound-physics-remastered-forge-1.20.1-1.5.1.jar"
+    },
+    {
+      "path": "mods/spark-1.10.53-forge.jar",
+      "sha1": "231fb325368c0660954f47bfb03493f5246fa4d1",
+      "size": 3114590,
+      "url": "https://cdn.modrinth.com/data/l6YH9Als/versions/4FXHDE9F/spark-1.10.53-forge.jar"
+    },
+    {
+      "path": "mods/subnauticraft-1.0.2-forge-1.20.1.jar",
+      "sha1": "87b1cf2a53c86e23df54ae46d3352c26818e8699",
+      "size": 3403622,
+      "url": "https://cdn.modrinth.com/data/Qi8dWtRK/versions/FVHMxMIg/subnauticraft-1.0.2-forge-1.20.1.jar"
+    },
+    {
+      "path": "mods/talkskin-1.0.0-client.jar",
+      "sha1": "9b14af3bca0da5f8fc2f24c34c60208de48e474c",
+      "size": 51416
+    },
+    {
+      "path": "mods/threateningly_mobs-1.1.1-forge-1.20.1.jar",
+      "sha1": "b2f09dd8d11e5caa393b34f778c55f65a51eb965",
+      "size": 10136081,
+      "url": "https://cdn.modrinth.com/data/qEr8xutG/versions/Zwuw6yjT/threateningly_mobs-1.1.1-forge-1.20.1.jar"
+    },
+    {
+      "path": "mods/timeclock-4.8.0-forge-1.20.1.jar",
+      "sha1": "a4bfd676c076cb46b51a877fc28dccc1580dd56f",
+      "size": 1155668,
+      "url": "https://cdn.modrinth.com/data/KZOjyOXV/versions/ShJOFROo/timeclock-4.8.0-forge-1.20.1.jar"
+    },
+    {
+      "path": "mods/touch_n_motion_forge_1.20.1_1.0.2.jar",
+      "sha1": "4de9cfc87ec3d20734de244f8fa643a371df017e",
+      "size": 972853,
+      "url": "https://edge.forgecdn.net/files/9128/522/touch_n_motion_forge_1.20.1_1.0.2.jar"
+    },
+    {
+      "path": "mods/wind_spellbooks-1.20.1-1.0.0.jar",
+      "sha1": "a219c1d13056784add75491e524ff747015d399f",
+      "size": 482113,
+      "url": "https://cdn.modrinth.com/data/nTApwmMc/versions/Rnn55z6s/wind_spellbooks-1.20.1-1.0.0.jar"
+    },
+    {
+      "path": "mods/witherreincarnated-1.20.1-1.0.5.jar",
+      "sha1": "a03dac62ffce65e49b0fa7f6c6d5b33a82ea1dd2",
+      "size": 12807443,
+      "url": "https://cdn.modrinth.com/data/YDc8cRWF/versions/Z3UVVtzh/witherreincarnated-1.20.1-1.0.5.jar"
+    },
+    {
+      "path": "mods/xaeroworldmap-forge-1.20.1-1.47.0.jar",
+      "sha1": "6715c1d3758a3805589d82c41dc581537fe185cd",
+      "size": 1429424,
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/KtEupJvB/xaeroworldmap-forge-1.20.1-1.47.0.jar"
+    },
+    {
+      "path": "mods/xercapaint-1.20.1-2.0.0.jar",
+      "sha1": "6310a9d55ae2dbd8af8f8d526d332aa9dbc413fb",
+      "size": 431716,
+      "url": "https://cdn.modrinth.com/data/YOs4tZea/versions/lK1v231e/xercapaint-1.20.1-2.0.0.jar"
+    },
+    {
+      "path": "mods/yuushya-1.20.1-forge-2.3.0.jar",
+      "sha1": "4ac64e0368ea02a2271326bc41f421a31e6604a3",
+      "size": 28166084,
+      "url": "https://cdn.modrinth.com/data/lfVtagkm/versions/4fDihvYF/yuushya-1.20.1-forge-2.3.0.jar"
+    },
+    {
+      "path": "mods/yuushya_modelling-1.20.1-2.4.1.jar",
+      "sha1": "c1e4c4d27f96b5ac3badd2672264502b3385da0c",
+      "size": 692976,
+      "url": "https://cdn.modrinth.com/data/RxVV6ldg/versions/WzbFqM04/yuushya_modelling-1.20.1-2.4.1.jar"
+    },
+    {
+      "path": "servers.dat",
+      "sha1": "4da922fa577417b66690e6f5b33ee965a729ddf7",
+      "size": 263
+    }
+  ]
+}

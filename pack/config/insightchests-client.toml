@@ -1,0 +1,105 @@
+
+[general]
+	#Physics simulation mode inside chests: FULL (collision + settling + avalanche), STATIC (drop & settle without dynamic push), OFF (disabled)
+	#Allowed Values: FULL, STATIC, OFF
+	physicsMode = "FULL"
+	#Smooth cinematic camera transition when opening/closing chests
+	enableCameraTransition = true
+	#Camera transition speed multiplier (1.0 = normal, higher is faster)
+	#Range: 0.1 ~ 5.0
+	cameraSpeed = 1.0
+
+[gui]
+	#Hybrid Frosted Glass UI blur intensity (0.0 = no blur, 1.0 = full blur)
+	#Range: 0.0 ~ 1.0
+	uiBlurIntensity = 0.75
+	#Chest slot grid background opacity (0.0 = completely transparent, 1.0 = opaque)
+	#Range: 0.0 ~ 1.0
+	uiBackgroundOpacity = 0.25
+	#Position of the chest inventory GUI on screen.
+	#MIDDLE = centered over the 3D chest view.
+	#LEFT   = pinned to the left edge, leaving the center free for the 3D view.
+	#RIGHT  = pinned to the right edge, leaving the center free for the 3D view (default).
+	#Allowed Values: MIDDLE, LEFT, RIGHT
+	guiPosition = "RIGHT"
+	#Highlight 3D items inside chest when hovering over their corresponding slot in GUI
+	hoverHighlight = true
+
+[rendering]
+	#Maximum number of 3D item models rendered per stack of non-block items (tools, food, weapons, etc.)
+	#Range: 1 ~ 16
+	representationCap = 5
+	#Maximum number of 3D item models rendered per stack of block items (leaves, stone, ore, glass, etc.). Block items require individual GPU draw calls so this cap directly affects FPS when opening chests full of blocks. Default 3 is a good balance between visual fullness and performance.
+	#Range: 1 ~ 16
+	blockRepresentationCap = 3
+	#Number of items batched before flushing the GPU buffer. Higher = better FPS but may cause visual artifacts with some item/shader combinations. Set to 1 for maximum visual safety (flushes after every item). Enchanted items are always isolated regardless of this setting.
+	#Range: 1 ~ 16
+	renderBatchSize = 4
+	#Render a true hollow chest interior (depth 9px) when the lid opens
+	hollowChestModel = true
+	#Smart Global Item Cap for Vanilla chests (Single Chest, Double Chest, Ender Chest):
+	#Dynamically balances the total number of 3D item models rendered inside Vanilla chests
+	#to prevent GPU bottlenecking without aggressive culling.
+	#When FALSE (default): Each stack renders up to representationCap / blockRepresentationCap
+	#regardless of how full the chest is (e.g. 27 full stacks x 3 = 81 items in a single chest,
+	#or 162 items in a double chest). Fully packed chests can cause noticeable FPS drops on
+	#mid-tier/low-tier GPUs under heavy shaders.
+	#When TRUE: The mod intelligently scales down duplicate representations so total items
+	#never exceed singleChestGlobalCap (single chest) or doubleChestGlobalCap (double chest).
+	#Every non-empty slot is always guaranteed at least 1 visual item model.
+	#Chests with few items (1-3 stacks) still show 3-5 items per stack, keeping small piles looking full.
+	enableVanillaGlobalItemCap = false
+	#Ceiling for total 3D items rendered in a Vanilla single chest (27 slots) when enableVanillaGlobalItemCap is TRUE.
+	#Default 32 provides a full, overflowing visual look to the brim.
+	#Minimum is 27 so that a completely full 27-slot chest is guaranteed at least 1 visual item per slot,
+	#preventing missing/invisible item bugs while eliminating GPU choke.
+	#Range: 27 ~ 128
+	singleChestGlobalCap = 32
+	#Ceiling for total 3D items rendered in a Vanilla double chest (54 slots) when enableVanillaGlobalItemCap is TRUE.
+	#Default 64 provides a full, overflowing visual look across both chest halves.
+	#Minimum is 54 so that a completely full 54-slot chest is guaranteed at least 1 visual item per slot,
+	#preventing missing/invisible item bugs while eliminating GPU choke.
+	#Range: 54 ~ 256
+	doubleChestGlobalCap = 64
+
+[compatibility]
+	#Enable 3D visual physics and hollow interior integration for Iron Chests mod (Iron, Gold, Diamond, Copper, Crystal, Obsidian, Dirt chests).
+	#Only takes effect when the 'ironchest' mod is installed.
+	#Default: true.
+	enableIronChests = true
+	#GUI scale factor for oversized Iron Chests (Gold with 81 slots, Diamond / Crystal / Obsidian with 108 slots).
+	#Allows massive chest interfaces to scale down cleanly so they don't cover the entire screen.
+	#Values: 0.5 to 1.0 (e.g. 0.8 = 80% scale, 0.75 = 75% scale, 1.0 = full size).
+	#Default: 0.80.
+	#Range: 0.5 ~ 1.0
+	ironChestsOversizedGuiScale = 0.8
+	#Smart Global Item Cap for Iron Chests mod:
+	#Dynamically balances the total number of 3D item models rendered inside Iron Chests.
+	#Allows players to cap massive modded containers (e.g. 81 or 108 slots) independently
+	#without affecting Vanilla chests.
+	#When FALSE (default): Each stack renders up to representationCap / blockRepresentationCap.
+	#When TRUE: Total rendered items will never exceed the specific cap set below for each chest tier.
+	#Every non-empty slot is always guaranteed at least 1 visual item model.
+	#Default: false.
+	enableIronChestsGlobalItemCap = false
+	#Ceiling for total 3D items rendered in Copper Chests (45 slots) when enableIronChestsGlobalItemCap is TRUE.
+	#Minimum is 45 so every non-empty slot gets at least 1 item.
+	#Default: 54.
+	#Range: 45 ~ 180
+	ironChestsCopperCap = 54
+	#Ceiling for total 3D items rendered in Iron Chests (54 slots) when enableIronChestsGlobalItemCap is TRUE.
+	#Minimum is 54 so every non-empty slot gets at least 1 item.
+	#Default: 64.
+	#Range: 54 ~ 216
+	ironChestsIronCap = 64
+	#Ceiling for total 3D items rendered in Gold Chests (81 slots) when enableIronChestsGlobalItemCap is TRUE.
+	#Minimum is 81 so every non-empty slot gets at least 1 item.
+	#Default: 96.
+	#Range: 81 ~ 324
+	ironChestsGoldCap = 96
+	#Ceiling for total 3D items rendered in Diamond, Crystal, and Obsidian Chests (108 slots) when enableIronChestsGlobalItemCap is TRUE.
+	#Minimum is 108 so every non-empty slot gets at least 1 item.
+	#Default: 128.
+	#Range: 108 ~ 432
+	ironChestsDiamondCap = 128
+

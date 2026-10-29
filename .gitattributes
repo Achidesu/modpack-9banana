@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Pack files must stay byte-identical: the launcher checks each one against its SHA-1 in manifest.json.
+pack/** -text
+manifest.json -text

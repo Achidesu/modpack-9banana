@@ -10,7 +10,7 @@ key_bindings = []
 [voice]
 disabled = false
 microphone_disabled = false
-activation_threshold = -43.0
+activation_threshold = -60.0
 input_device = ""
 output_device = ""
 disable_input_device = false

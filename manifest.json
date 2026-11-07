@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "version": "2026.10.29-033923",
+  "version": "2026.11.07-000147",
   "minecraft": "1.20.1",
   "forge": "47.4.28",
   "server": "play.example.com",
@@ -217,8 +217,8 @@
     },
     {
       "path": "config/emotecraft.json",
-      "sha1": "212357de0d0bc3432e2ca5a1ac866e88e89b2e69",
-      "size": 647
+      "sha1": "ad532c788a74ddc720bc7324f20e650912a1db82",
+      "size": 1499
     },
     {
       "path": "config/emotecraft_emote_map.json",
@@ -342,13 +342,13 @@
     },
     {
       "path": "config/grandsigil-client.toml",
-      "sha1": "2bc65c5c10d0907ddd083e85de07f90cd858784f",
-      "size": 551
+      "sha1": "aa910028aaf060607d888f5b26aa6ac696fbd2ad",
+      "size": 1230
     },
     {
       "path": "config/grandsigil-common.toml",
-      "sha1": "11195b72a9f6fb7cc90a7bcf3d9c63a9c36eacf5",
-      "size": 2879
+      "sha1": "3710b3e2f6beb76f4f785c56a3df9614fabedd5a",
+      "size": 2465
     },
     {
       "path": "config/gtbcs_spell_lib-common.toml",
@@ -397,8 +397,13 @@
     },
     {
       "path": "config/insightchests-client.toml",
-      "sha1": "901103dd89604824a0e464211b7af8dd4c5bad1a",
-      "size": 5994
+      "sha1": "c99fc01050e502103f0e71c2d0c4dc5d93e2ef66",
+      "size": 10936
+    },
+    {
+      "path": "config/inventoryprofilesnext/27.145.38.131\u002625566/villager-trading-config.json",
+      "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "size": 1177
     },
     {
       "path": "config/inventoryprofilesnext/58.8.217.96\u002625566/prev-villager-trading-config.json",
@@ -417,6 +422,11 @@
     },
     {
       "path": "config/inventoryprofilesnext/New World/villager-trading-config.json",
+      "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
+      "size": 1177
+    },
+    {
+      "path": "config/inventoryprofilesnext/banana.ddns.net\u002625566/villager-trading-config.json",
       "sha1": "e2593acfcb9d84fa2c050b145242d28cc28fb25f",
       "size": 1177
     },
@@ -449,6 +459,51 @@
       "path": "config/irons_spellbooks_spell_config/irons_spellbooks/example.txt",
       "sha1": "689785f1f451bc4517caaa2262ed4f8cf20b7b21",
       "size": 683
+    },
+    {
+      "path": "config/jei/blacklist.json",
+      "sha1": "7a9c83de081216d9061bffda2d30114104ef6ee3",
+      "size": 19
+    },
+    {
+      "path": "config/jei/client/default/jei-client.ini",
+      "sha1": "4920613ec2328b4b11b2fc10427c6ad4ae302d17",
+      "size": 16999
+    },
+    {
+      "path": "config/jei/client/default/jei-colors.ini",
+      "sha1": "1044f6310eb4e62253c9d9e1ba3a9313599b310e",
+      "size": 1655
+    },
+    {
+      "path": "config/jei/client/default/jei-debug.ini",
+      "sha1": "d02dc7d7cf1c8ced3ef1f9253a0bbadb6580d56d",
+      "size": 1174
+    },
+    {
+      "path": "config/jei/client/default/jei-mod-id-format.ini",
+      "sha1": "6106cc9c99906ea9da4854730887379ec1e8b256",
+      "size": 863
+    },
+    {
+      "path": "config/jei/client/ingredient-list-mod-sort-order.ini",
+      "sha1": "7aafade0216c4421040733d93349692c62655a7c",
+      "size": 968
+    },
+    {
+      "path": "config/jei/client/ingredient-list-type-sort-order.ini",
+      "sha1": "77ee8bfa5522fe6d88094bb9034e45611c785eeb",
+      "size": 99
+    },
+    {
+      "path": "config/jei/client/recipe-category-sort-order.ini",
+      "sha1": "7a65e8b006c3f243bec5b1ec1565530f1652056e",
+      "size": 2080
+    },
+    {
+      "path": "config/mezz_config/client/default/settings.ini",
+      "sha1": "37c6c10d605efbf78119e1fea0d6d0b06ba9ca77",
+      "size": 1452
     },
     {
       "path": "config/modernfix-common.toml",
@@ -492,7 +547,7 @@
     },
     {
       "path": "config/oculus.properties",
-      "sha1": "455cf88542cd833772b1c67a094199d34f5bc808",
+      "sha1": "56f99c9e79ddce4b736332fe1a79f8f30b3ff21a",
       "size": 254
     },
     {
@@ -577,7 +632,7 @@
     },
     {
       "path": "config/plasmovoice/.crowdin/timestamp",
-      "sha1": "73dd34d89d82046e830c8e8843d5a821055711ed",
+      "sha1": "df61142b84d7c8d1cbfd9c1992d94bb715c9de31",
       "size": 13
     },
     {
@@ -612,12 +667,12 @@
     },
     {
       "path": "config/plasmovoice/client.toml",
-      "sha1": "e279dc232e6ad11a9188ad8eea1a3a823af90438",
+      "sha1": "236f56be25ae0565bc35f185d0719620d13c55e0",
       "size": 1300
     },
     {
       "path": "config/plasmovoice/meta_cache.json",
-      "sha1": "977fbb4cee66841aaa9d0d293e9785edb4a8f536",
+      "sha1": "6e76d16a59f1f164bd149b16eee6c6b05f6a5822",
       "size": 655
     },
     {
@@ -1458,12 +1513,6 @@
       "url": "https://cdn.modrinth.com/data/GWp4jCJj/versions/ZRgu5o3x/createbigcannons-5.11.4-mc.1.20.1-forge.jar"
     },
     {
-      "path": "mods/createtnt-1.20.1-forge-1.0.0.jar",
-      "sha1": "29d64a3e0c0737a382022a547e33bf7a3cc349ab",
-      "size": 288558,
-      "url": "https://cdn.modrinth.com/data/E2Zbah9l/versions/HgDEYeFu/createtnt-1.20.1-forge-1.0.0.jar"
-    },
-    {
       "path": "mods/curios-forge-5.14.1\u002B1.20.1.jar",
       "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
       "size": 398066,
@@ -1516,6 +1565,11 @@
       "sha1": "fcff067375cfe917cbf235218f49ceb58e598a5c",
       "size": 680255,
       "url": "https://cdn.modrinth.com/data/pZ2wrerK/versions/2f5mEUPY/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar"
+    },
+    {
+      "path": "mods/emotemenu-1.0.0.jar",
+      "sha1": "5fabb7e31c9057b4eb06293b37b2b97fc812b675",
+      "size": 18073
     },
     {
       "path": "mods/enhancedequipmentdisplay-forge-1.20.1-1.1.jar",
@@ -1596,10 +1650,10 @@
       "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/aC5KMoNg/geckolib-forge-1.20.1-4.8.4.jar"
     },
     {
-      "path": "mods/grandsigil-1.20.1-forge-1.3.0.jar",
-      "sha1": "950f18bf8c455cdf98bf01de091373628050918d",
-      "size": 2937478,
-      "url": "https://edge.forgecdn.net/files/9056/817/grandsigil-1.20.1-forge-1.3.0.jar"
+      "path": "mods/grandsigil-1.20.1-forge-1.5.2.jar",
+      "sha1": "ca159c85b2db4fc12954d03d246140c0d56b431b",
+      "size": 3320456,
+      "url": "https://edge.forgecdn.net/files/9414/643/grandsigil-1.20.1-forge-1.5.2.jar"
     },
     {
       "path": "mods/gtbcs_spell_lib-2.2.0-1.20.1.jar",
@@ -1661,6 +1715,12 @@
       "url": "https://cdn.modrinth.com/data/XLsvc8Ld/versions/a6NiiKTW/irons_spells_js-1.20.1-6.5-3.14-r2-release.jar"
     },
     {
+      "path": "mods/jei-1.20.1-forge-15.74.0.234.jar",
+      "sha1": "1ae408badfe8b57417f465a06fc4d03215dba993",
+      "size": 4805946,
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/6E4ps2ER/jei-1.20.1-forge-15.74.0.234.jar"
+    },
+    {
       "path": "mods/kaleidoscope_immersiveEating-forge1.20.1-1.5.1.jar",
       "sha1": "f82c1d60f57c6e7444cee5fa68f3e3543d541ccb",
       "size": 2800824,
@@ -1719,6 +1779,12 @@
       "sha1": "9f60142dd94631800386a16a4ad70ad9e84cd78a",
       "size": 227925,
       "url": "https://cdn.modrinth.com/data/NRjRiSSD/versions/3w0IxNtk/memoryleakfix-forge-1.17%2B-1.1.5.jar"
+    },
+    {
+      "path": "mods/mezz_config-1.20.1-forge-0.6.11.jar",
+      "sha1": "99e3935bfe504f76fd6f70d6ad565504e1be1cb9",
+      "size": 386655,
+      "url": "https://cdn.modrinth.com/data/7tEfOcA7/versions/JNK7WlpZ/mezz_config-1.20.1-forge-0.6.11.jar"
     },
     {
       "path": "mods/modernfix-forge-5.27.88\u002Bmc1.20.1.jar",
@@ -1872,8 +1938,8 @@
     },
     {
       "path": "mods/talkskin-1.0.0-client.jar",
-      "sha1": "9b14af3bca0da5f8fc2f24c34c60208de48e474c",
-      "size": 51416
+      "sha1": "59bc366c76e8b14663edad07d3781503533bbca3",
+      "size": 52967
     },
     {
       "path": "mods/threateningly_mobs-1.1.1-forge-1.20.1.jar",
@@ -1931,8 +1997,8 @@
     },
     {
       "path": "servers.dat",
-      "sha1": "4da922fa577417b66690e6f5b33ee965a729ddf7",
-      "size": 263
+      "sha1": "67a02789cbbb133be91eb8ea7abbf721975d5a33",
+      "size": 351
     }
   ]
 }

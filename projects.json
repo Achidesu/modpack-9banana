@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": "roleplay",
+      "name": "Roleplay",
+      "path": ""
+    },
+    {
+      "id": "aroreaw",
+      "name": "ห้องเรียนพิเศษ แห่งอาโรเรียว",
+      "path": "projects/aroreaw",
+      "theme": "magic"
+    }
+  ],
+  "revoked": []
+}

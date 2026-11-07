@@ -12,4 +12,13 @@
 	#0 draws the rings and the beam and skips the ornament.
 	#Range: 0 ~ 2
 	detail = 2
+	#Draw the first eight ultimates -- Grand Sigil, Sunfall, Skybreak, World Tree,
+	#Gates of Heaven, The Gaze, Grip of the Void, The Colosseum -- the way 1.5.0 redrew
+	#them, instead of the way they have always looked. Only the look changes; what they
+	#do is the same either way. Takes effect as soon as the file is saved, no restart.
+	#There is also a gamerule, /gamerule grandsigilRemadeEffects true, that does this
+	#for everyone in a world; either one is enough. In single player this file also
+	#switches the particles; on a server those follow the gamerule.
+	#A graphics driver that cannot build the redraw's shaders keeps the original look.
+	remadeEffects = false
 

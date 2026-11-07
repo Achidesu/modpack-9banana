@@ -19,7 +19,7 @@
 	#Position of the chest inventory GUI on screen.
 	#MIDDLE = centered over the 3D chest view.
 	#LEFT   = pinned to the left edge, leaving the center free for the 3D view.
-	#RIGHT  = pinned to the right edge, leaving the center free for the 3D view (default).
+	#RIGHT  = pinned to the right edge, leaving the center free for the 3D view.
 	#Allowed Values: MIDDLE, LEFT, RIGHT
 	guiPosition = "RIGHT"
 	#Highlight 3D items inside chest when hovering over their corresponding slot in GUI
@@ -29,7 +29,7 @@
 	#Maximum number of 3D item models rendered per stack of non-block items (tools, food, weapons, etc.)
 	#Range: 1 ~ 16
 	representationCap = 5
-	#Maximum number of 3D item models rendered per stack of block items (leaves, stone, ore, glass, etc.). Block items require individual GPU draw calls so this cap directly affects FPS when opening chests full of blocks. Default 3 is a good balance between visual fullness and performance.
+	#Maximum number of 3D item models rendered per stack of block items (leaves, stone, ore, glass, etc.). Block items require individual GPU draw calls so this cap directly affects FPS when opening chests full of blocks. 3 is a good balance between visual fullness and performance.
 	#Range: 1 ~ 16
 	blockRepresentationCap = 3
 	#Number of items batched before flushing the GPU buffer. Higher = better FPS but may cause visual artifacts with some item/shader combinations. Set to 1 for maximum visual safety (flushes after every item). Enchanted items are always isolated regardless of this setting.
@@ -40,7 +40,7 @@
 	#Smart Global Item Cap for Vanilla chests (Single Chest, Double Chest, Ender Chest):
 	#Dynamically balances the total number of 3D item models rendered inside Vanilla chests
 	#to prevent GPU bottlenecking without aggressive culling.
-	#When FALSE (default): Each stack renders up to representationCap / blockRepresentationCap
+	#When FALSE: Each stack renders up to representationCap / blockRepresentationCap
 	#regardless of how full the chest is (e.g. 27 full stacks x 3 = 81 items in a single chest,
 	#or 162 items in a double chest). Fully packed chests can cause noticeable FPS drops on
 	#mid-tier/low-tier GPUs under heavy shaders.
@@ -50,13 +50,13 @@
 	#Chests with few items (1-3 stacks) still show 3-5 items per stack, keeping small piles looking full.
 	enableVanillaGlobalItemCap = false
 	#Ceiling for total 3D items rendered in a Vanilla single chest (27 slots) when enableVanillaGlobalItemCap is TRUE.
-	#Default 32 provides a full, overflowing visual look to the brim.
+	#32 provides a full, overflowing visual look to the brim.
 	#Minimum is 27 so that a completely full 27-slot chest is guaranteed at least 1 visual item per slot,
 	#preventing missing/invisible item bugs while eliminating GPU choke.
 	#Range: 27 ~ 128
 	singleChestGlobalCap = 32
 	#Ceiling for total 3D items rendered in a Vanilla double chest (54 slots) when enableVanillaGlobalItemCap is TRUE.
-	#Default 64 provides a full, overflowing visual look across both chest halves.
+	#64 provides a full, overflowing visual look across both chest halves.
 	#Minimum is 54 so that a completely full 54-slot chest is guaranteed at least 1 visual item per slot,
 	#preventing missing/invisible item bugs while eliminating GPU choke.
 	#Range: 54 ~ 256
@@ -65,41 +65,102 @@
 [compatibility]
 	#Enable 3D visual physics and hollow interior integration for Iron Chests mod (Iron, Gold, Diamond, Copper, Crystal, Obsidian, Dirt chests).
 	#Only takes effect when the 'ironchest' mod is installed.
-	#Default: true.
 	enableIronChests = true
 	#GUI scale factor for oversized Iron Chests (Gold with 81 slots, Diamond / Crystal / Obsidian with 108 slots).
 	#Allows massive chest interfaces to scale down cleanly so they don't cover the entire screen.
 	#Values: 0.5 to 1.0 (e.g. 0.8 = 80% scale, 0.75 = 75% scale, 1.0 = full size).
-	#Default: 0.80.
 	#Range: 0.5 ~ 1.0
 	ironChestsOversizedGuiScale = 0.8
 	#Smart Global Item Cap for Iron Chests mod:
 	#Dynamically balances the total number of 3D item models rendered inside Iron Chests.
 	#Allows players to cap massive modded containers (e.g. 81 or 108 slots) independently
 	#without affecting Vanilla chests.
-	#When FALSE (default): Each stack renders up to representationCap / blockRepresentationCap.
+	#When FALSE: Each stack renders up to representationCap / blockRepresentationCap.
 	#When TRUE: Total rendered items will never exceed the specific cap set below for each chest tier.
 	#Every non-empty slot is always guaranteed at least 1 visual item model.
-	#Default: false.
 	enableIronChestsGlobalItemCap = false
 	#Ceiling for total 3D items rendered in Copper Chests (45 slots) when enableIronChestsGlobalItemCap is TRUE.
 	#Minimum is 45 so every non-empty slot gets at least 1 item.
-	#Default: 54.
 	#Range: 45 ~ 180
 	ironChestsCopperCap = 54
 	#Ceiling for total 3D items rendered in Iron Chests (54 slots) when enableIronChestsGlobalItemCap is TRUE.
 	#Minimum is 54 so every non-empty slot gets at least 1 item.
-	#Default: 64.
 	#Range: 54 ~ 216
 	ironChestsIronCap = 64
 	#Ceiling for total 3D items rendered in Gold Chests (81 slots) when enableIronChestsGlobalItemCap is TRUE.
 	#Minimum is 81 so every non-empty slot gets at least 1 item.
-	#Default: 96.
 	#Range: 81 ~ 324
 	ironChestsGoldCap = 96
 	#Ceiling for total 3D items rendered in Diamond, Crystal, and Obsidian Chests (108 slots) when enableIronChestsGlobalItemCap is TRUE.
 	#Minimum is 108 so every non-empty slot gets at least 1 item.
-	#Default: 128.
 	#Range: 108 ~ 432
 	ironChestsDiamondCap = 128
+	#Controls whether the 8 floating spinning preview items inside Iron Chests' Crystal Chest are rendered when the chest is CLOSED in normal world conditions.
+	#When TRUE: 8 preview items rotate inside the closed glass chest in world space (vanilla Iron Chests aesthetic).
+	#When FALSE: Floating spinning items are suppressed even when closed, leaving a pure crystal glass appearance.
+	#Note: Preview items are ALWAYS automatically suppressed when the chest is open so they don't clip into InSight Chests' 3D physics items.
+	enableIronChestsCrystalPreview = true
+	#Enable 3D visual physics, hollow cavity depth carving, and camera transition integration for Sophisticated Storage chests (Wood, Copper, Iron, Gold, Diamond, Netherite).
+	#Only takes effect when the 'sophisticatedstorage' mod is installed.
+	enableSophisticatedStorage = true
+	#Whether to replace Sophisticated Storage's container screen with InSight Chests' translucent glass screen.
+	#When TRUE: Replaces with InSight Chests' minimal translucent glass UI, custom side positioning, and scaled interface for oversized containers.
+	#When FALSE: Preserves Sophisticated Storage's native screen with full interactive access to its upgrade tabs (Magnet, Hopper, Filter, Void, etc.), memory slots, and settings buttons.
+	sophisticatedStorageReplaceScreen = true
+	#GUI scale factor for large Sophisticated Storage chests (Iron tier and above: Iron, Gold, Diamond, Netherite, and double chests).
+	#Allows massive chest interfaces to scale down cleanly so they don't cover the entire screen.
+	#Values: 0.5 to 1.0 (e.g. 0.8 = 80% scale, 1.0 = full size).
+	#Range: 0.5 ~ 1.0
+	sophisticatedStorageLargeGuiScale = 0.8
+	#GUI scale factor for small Sophisticated Storage chests (Iron tier and below: Wood, Copper chests).
+	#Allows smaller chest interfaces to scale down slightly for a neat, compact visual presentation.
+	#Values: 0.5 to 1.0 (e.g. 0.90 = 90% scale, 1.0 = full size).
+	#Range: 0.5 ~ 1.0
+	sophisticatedStorageSmallGuiScale = 0.9
+	#Distance (in pixels) to indent large Sophisticated Storage chest GUIs (Iron tier and above) toward the screen center when GUI position is LEFT or RIGHT.
+	#Prevents side-attached upgrade tabs and utility buttons from clipping outside the screen edge.
+	#Values: 0 to 200 pixels.
+	#Range: 0 ~ 200
+	sophisticatedStorageLargeSideOffset = 18
+	#Distance (in pixels) to indent small Sophisticated Storage chest GUIs (Iron tier and below: Wood, Copper) toward the screen center when GUI position is LEFT or RIGHT.
+	#Allows smaller chests to sit deeper toward the center for superior aesthetic balance.
+	#Values: 0 to 200 pixels.
+	#Range: 0 ~ 200
+	sophisticatedStorageSmallSideOffset = 22
+	#Smart Global Item Cap for Sophisticated Storage chests:
+	#Dynamically balances the total number of 3D item models rendered inside Sophisticated Storage chests.
+	#Allows players to cap massive modded containers (e.g. 81, 108, 132 slots or double chests) independently
+	#without affecting Vanilla chests.
+	#When FALSE: Each stack renders up to representationCap / blockRepresentationCap.
+	#When TRUE: Total rendered items will never exceed the specific cap set below for each chest tier (scaled 2x for double chests).
+	#Every non-empty slot is always guaranteed at least 1 visual item model.
+	enableSophisticatedStorageGlobalItemCap = false
+	#Ceiling for total 3D items rendered in Sophisticated Storage Wood Chests (27 slots) when enableSophisticatedStorageGlobalItemCap is TRUE.
+	#Minimum is 27 so every non-empty slot gets at least 1 item.
+	#Range: 27 ~ 108
+	sophisticatedStorageWoodCap = 32
+	#Ceiling for total 3D items rendered in Sophisticated Storage Copper Chests (45 slots) when enableSophisticatedStorageGlobalItemCap is TRUE.
+	#Minimum is 45 so every non-empty slot gets at least 1 item.
+	#Range: 45 ~ 180
+	sophisticatedStorageCopperCap = 54
+	#Ceiling for total 3D items rendered in Sophisticated Storage Iron Chests (54 slots) when enableSophisticatedStorageGlobalItemCap is TRUE.
+	#Minimum is 54 so every non-empty slot gets at least 1 item.
+	#Range: 54 ~ 216
+	sophisticatedStorageIronCap = 64
+	#Ceiling for total 3D items rendered in Sophisticated Storage Gold Chests (81 slots) when enableSophisticatedStorageGlobalItemCap is TRUE.
+	#Minimum is 81 so every non-empty slot gets at least 1 item.
+	#Range: 81 ~ 324
+	sophisticatedStorageGoldCap = 96
+	#Ceiling for total 3D items rendered in Sophisticated Storage Diamond Chests (108 slots) when enableSophisticatedStorageGlobalItemCap is TRUE.
+	#Minimum is 108 so every non-empty slot gets at least 1 item.
+	#Range: 108 ~ 432
+	sophisticatedStorageDiamondCap = 128
+	#Ceiling for total 3D items rendered in Sophisticated Storage Netherite Chests (132 slots) when enableSophisticatedStorageGlobalItemCap is TRUE.
+	#Minimum is 132 so every non-empty slot gets at least 1 item.
+	#Range: 132 ~ 528
+	sophisticatedStorageNetheriteCap = 160
+
+[debug]
+	#Enable dense diagnostic logging and pipeline watchdog. When TRUE, outputs detailed lifecycle traces to logs/insightchests/debug-session.log and console.
+	debugMode = false
 
